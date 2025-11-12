@@ -53,9 +53,9 @@ int main(int argc, const char *argv[])
     omp_sched_t st;
     int cs;
     omp_get_schedule(&st, &cs);
-    printf("\nParallel run using schedule = %d , chunk size = %d, threads = %d\n", st, cs, num_threads);
+    printf("\nSchedule = %d | Chunk size = %d | Threads = %d\n", st, cs, num_threads);
 #else
-    printf("\nSequential run\n");
+    //printf("\nSequential run\n");
 #endif
 
     srand(time(NULL));
