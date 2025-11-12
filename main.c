@@ -87,7 +87,7 @@ int main(int argc, const char *argv[])
 
     // double cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
     elapsed = finish - start;
-    printf("\nTime taken for CSR matrix-vector multiplication: %f seconds\n\n", elapsed);
+    printf("\nSPMV_TIME=%f\n\n", elapsed);
 
     // Free allocated memory
     free(mat.I);
