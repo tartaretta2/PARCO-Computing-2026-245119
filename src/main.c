@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <time.h>
 #include "timer.h"
 #include "utils.h"
 
@@ -17,7 +18,7 @@ int main(int argc, const char *argv[])
 {
 
     #ifdef _OPENMP
-    if (argc != 5)
+    if (argc != 6)
     {
         printf("Usage: %s <schedule_type> <chunk_size> <num_threads>\n", argv[0]);
         printf("schedule_type: static | dynamic | guided | auto\n");
@@ -25,9 +26,9 @@ int main(int argc, const char *argv[])
     }
 
     // ---- PARSE ARGUMENTS ----
-    const char *sched_str = argv[2];
-    int chunk = atoi(argv[3]);
-    int num_threads = atoi(argv[4]);
+    const char *sched_str = argv[3];
+    int chunk = atoi(argv[4]);
+    int num_threads = atoi(argv[5]);
 
     // ---- MAP STRING TO OMP ENUM ----
     omp_sched_t sched_type;
@@ -49,18 +50,17 @@ int main(int argc, const char *argv[])
     omp_set_schedule(sched_type, chunk);
 
     // ---- DEBUG PRINT ----
-    int nt = omp_get_num_threads();
+    
     omp_sched_t st;
     int cs;
     omp_get_schedule(&st, &cs);
-    printf("\nSchedule = %d | Chunk size = %d | Threads = %d\n", st, cs, num_threads);
-#else
-    //printf("\nSequential run\n");
-#endif
+    
+    #endif
 
     srand(time(NULL));
 
     double start, finish, elapsed;
+    int repeats = atoi(argv[2]);
 
     // Matrix declaration
     Matrix mat;
@@ -73,21 +73,35 @@ int main(int argc, const char *argv[])
     int i;
     for (i = 0; i < mat.N; i++)
     {
-        vector[i] = 1.0; // Example initialization
+        vector[i] = ((double)rand() / (double)RAND_MAX) * 20.0 - 10.0;
     }
 
     // print matrix CSR vector
     //print_csr(&mat);
 
     // Perform CSR matrix-vector multiplication
-    // clock_t start = clock();
-    GET_TIME(start);
-    csr_matvec(&mat, vector, result);
-    GET_TIME(finish)
+    const char *matrix_name = strrchr(argv[1], '/');
+    if (matrix_name != NULL) {
+      matrix_name++;  // salta lo slash
+    } else {
+        matrix_name = argv[1]; // non c’è lo slash
+    }
+    printf("\n=== MATRIX: %s ===\n", matrix_name);
+    for(i = 0; i < repeats; ++i){
 
-    // double cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
-    elapsed = finish - start;
-    printf("\nSPMV_TIME=%f\n\n", elapsed);
+      #ifdef _OPENMP
+        printf("\nSchedule = %d | Chunk size = %d | Threads = %d | Run #%d", st, cs, num_threads, i);
+      #else
+       printf("\nSequential run #%d", i);
+      #endif
+      GET_TIME(start);
+      csr_matvec(&mat, vector, result);
+      GET_TIME(finish)
+  
+      elapsed = finish - start;
+      printf("\nSPMV_TIME=%f\n\n", elapsed);
+    }
+    
 
     // Free allocated memory
     free(mat.I);

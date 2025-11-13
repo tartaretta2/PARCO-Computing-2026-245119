@@ -1,0 +1,233 @@
+#!/bin/bash
+#PBS -N SpMV_code
+#PBS -o ../results/SpMV_code.out
+#PBS -e ../results/SpMV_code.err
+#PBS -q short_cpuQ
+#PBS -l walltime=06:00:00
+#PBS -l select=1:ncpus=64:mem=32gb
+
+module load gcc91
+module load perf
+
+BASE_DIR="/home/leonardo.tartini/PARCO-Computing-2026-245119"
+
+if [ -n "$PBS_O_WORKDIR" ]; then
+    cd "$PBS_O_WORKDIR" || { echo "ERROR: cannot cd into PBS_O_WORKDIR"; exit 1; }
+else
+    cd "$BASE_DIR/scripts" || { echo "ERROR: cannot cd into scripts directory"; exit 1; }
+fi
+
+set -euo pipefail
+
+# CONFIGURATION
+WORKDIR="$PBS_O_WORKDIR"
+SOURCE_DIR="$BASE_DIR/src"                 # C source file to be compiled
+OUTDIR="$BASE_DIR/results"                # results and logs folder
+MATRIX_DIR="$BASE_DIR/data_matrices"      # matrices folder
+
+echo "[INFO] Base dir:    $BASE_DIR"
+echo "[INFO] Source dir:  $SOURCE_DIR"
+echo "[INFO] Matrices:    $MATRIX_DIR"
+echo "[INFO] Results dir: $OUTDIR"
+echo "[INFO] Current dir: $(pwd)"
+
+SEQ_BIN="seq_program"           # binary name for sequential version
+PAR_BIN="par_program"           # binary name for parallel version
+
+SOURCE_FILES=$(find "$SOURCE_DIR" -maxdepth 1 -name "*.c")
+
+echo -e "[INFO] Compiling sources:\n\t$SOURCE_FILES"
+
+MATRIX_FILES=("$MATRIX_DIR"/*.mtx)
+
+RUN_TYPES_PAR=("static" "dynamic" "guided")
+CHUNK_SIZES=(1 10 100) #1000 10000
+NUM_THREADS=(1 2 4 8) #16 32 64
+
+PERF_ENABLE=${PERF_ENABLE:-false}
+
+if [[ "$PERF_ENABLE" == false ]]; then
+  CODE_REPEATS=3 #10
+  PERF_REPEATS=0
+else
+  CODE_REPEATS=1
+  PERF_REPEATS=3 #10
+fi
+
+CC=${CC:-gcc}
+PERF_CMD=$(command -v perf || true)
+
+LOGDIR="$OUTDIR/logs"
+PERFDIR="$OUTDIR/perf"
+BINDIR="$OUTDIR/bin"
+
+CSV="$OUTDIR/summary.csv"
+CSV_PERF="$OUTDIR/summary_perf.csv"
+echo "run_type,mode,matrix,schedule,chunk,threads,metric,value,log_file" > "$CSV"
+echo "run_type,mode,matrix,schedule,chunk,threads,repeat,L1_misses,L1_percent,LLC_misses,LLC_percent,log_file" > "$CSV_PERF"
+
+run_code() {
+  local cmd=("$@")
+  "${cmd[@]}"
+}
+
+###############################################
+# COMPILE CODES
+###############################################
+echo "Sequential compilation (-O3)"
+$CC -g -Wall -O3 -std=c11 -o "${BINDIR}/${SEQ_BIN}" $SOURCE_FILES
+
+echo "Parallel compilation (-O3 + OpenMP)"
+$CC -g -Wall -O3 -fopenmp -std=c11 -o "${BINDIR}/${PAR_BIN}" $SOURCE_FILES
+
+
+###############################################
+# RUN CODES
+###############################################
+for MATRIX in "${MATRIX_FILES[@]}"; do
+    FILENAME=$(basename "$MATRIX")
+    echo -e "\n### USING MATRIX: $FILENAME ###\n"
+    
+    ###############################################
+    # SEQUENTIAL RUNS
+    ###############################################
+    echo -e "\n=== SEQUENTIAL RUNS ===\n"
+    
+    MATRIX_NAME="${FILENAME%.mtx}"
+    logf="${LOGDIR}/seq_runs_${MATRIX_NAME}.log"
+    perf_logf="${PERFDIR}/seq_perf.log"
+    stamp=$(date +"%Y%m%d_%H%M%S")
+
+    
+    if [[ "$PERF_ENABLE" == false ]]; then
+      run_code "${BINDIR}/${SEQ_BIN}" "$MATRIX" "$CODE_REPEATS" > "$logf.tmp" 2>&1 || rc=$? || rc=$?
+  
+      cat "$logf.tmp" >> "$logf"
+  
+      times=($(grep -Eo 'SPMV_TIME=[0-9.]+' "$logf.tmp" | cut -d= -f2))
+  
+      rm -f "$logf.tmp"
+  
+      if [[ ${#times[@]} -eq 0 ]]; then
+          echo "[WARN] Nessun SPMV_TIME trovato in $logf"
+      else
+        for idx in "${!times[@]}"; do
+            echo "sequential,code,${MATRIX_NAME},-,-,-,time,${times[$idx]},seq_runs_${MATRIX_NAME}.log" >> "$CSV"
+        done
+      fi
+    else  
+      for ((i=1; i<=PERF_REPEATS; i++)); do
+        echo "--> perf run #$i"
+
+        # Esegui perf per la versione parallela
+        run_code "$PERF_CMD" stat \
+            -e L1-dcache-loads,L1-dcache-load-misses,LLC-loads,LLC-load-misses \
+            -o "$perf_logf.tmp" "${BINDIR}/${PAR_BIN}" "$MATRIX" "$CODE_REPEATS" \
+            > /dev/null 2>&1 || true
+
+        # ---------- Estrazione valori ----------
+        L1_loads=$(grep "L1-dcache-loads"      "$perf_logf.tmp" | awk '{print $1}' | tr -d ',')
+        L1_miss=$(grep "L1-dcache-load-misses" "$perf_logf.tmp" | awk '{print $1}' | tr -d ',')
+
+        LLC_loads=$(grep "LLC-loads"       "$perf_logf.tmp" | awk '{print $1}' | tr -d ',')
+        LLC_miss=$(grep "LLC-load-misses" "$perf_logf.tmp" | awk '{print $1}' | tr -d ',')
+
+        # ---------- Calcolo percentuali ----------
+        if [[ -n "$L1_loads" && -n "$L1_miss" && "$L1_loads" != "0" ]]; then
+            L1_perc=$(awk "BEGIN { printf(\"%.2f\", ($L1_miss / $L1_loads) * 100) }")
+        else
+            L1_perc="NA"
+        fi
+
+        if [[ -n "$LLC_loads" && -n "$LLC_miss" && "$LLC_loads" != "0" ]]; then
+            LLC_perc=$(awk "BEGIN { printf(\"%.2f\", ($LLC_miss / $LLC_loads) * 100) }")
+        else
+            LLC_perc="NA"
+        fi
+
+        echo "sequential,perf,${MATRIX_NAME},-,-,-,${i},L1_misses=${L1_miss},L1_percent=${L1_perc},LLC_misses=${LLC_miss},LLC_percent=${LLC_perc},${perf_logf}" \
+            >> "$CSV_PERF"
+
+        # Salva log dettagliato
+        cat "$perf_logf.tmp" >> "$perf_logf"
+        rm -f "$perf_logf.tmp"
+      done
+    fi
+
+    ###############################################
+    # PARALLEL RUNS
+    ###############################################
+    echo -e "\n=== PARALLEL RUNS ===\n"
+
+    logf="${LOGDIR}/par_runs_${MATRIX_NAME}.log"
+    perf_logf="${PERFDIR}/par_perf_${MATRIX_NAME}.log"
+    for schedule in "${RUN_TYPES_PAR[@]}"; do
+        echo -e "\n--- ${schedule} scheduling ---\n"
+        for chunk in "${CHUNK_SIZES[@]}"; do
+            for th in "${NUM_THREADS[@]}"; do
+              stamp=$(date +"%Y%m%d_%H%M%S")
+
+              if [[ "$PERF_ENABLE" == false ]]; then
+                  run_code "${BINDIR}/${PAR_BIN}" "$MATRIX" "${CODE_REPEATS}" "$schedule" "$chunk" "$th" > "$logf.tmp" 2>&1 || rc=$? || rc=$?
+                  
+                  cat "$logf.tmp" >> "$logf";
+                  
+                  times=($(grep -Eo 'SPMV_TIME=[0-9.]+' "$logf.tmp" | cut -d= -f2))
+                  
+                  rm -f "$logf.tmp"
+              
+                  for idx in "${!times[@]}"; do
+                      echo "parallel,code,${MATRIX_NAME},${schedule},${chunk},${th},time,${times[$idx]},par_runs_${MATRIX_NAME}.log" >> "$CSV"
+                  done
+              else
+                  for ((i=1; i<=PERF_REPEATS; i++)); do
+                      echo "--> perf run #$i"
+
+                      # Esegui perf per la versione parallela
+                      run_code "$PERF_CMD" stat \
+                          -e L1-dcache-loads,L1-dcache-load-misses,LLC-loads,LLC-load-misses \
+                          -o "$perf_logf.tmp" "${BINDIR}/${PAR_BIN}" "$MATRIX" "$CODE_REPEATS" "$schedule" "$chunk" "$th" \
+                          > /dev/null 2>&1 || true
+
+                      # ---------- Estrazione valori ----------
+                      L1_loads=$(grep "L1-dcache-loads"      "$perf_logf.tmp" | awk '{print $1}' | tr -d ',')
+                      L1_miss=$(grep "L1-dcache-load-misses" "$perf_logf.tmp" | awk '{print $1}' | tr -d ',')
+
+                      LLC_loads=$(grep "LLC-loads"       "$perf_logf.tmp" | awk '{print $1}' | tr -d ',')
+                      LLC_miss=$(grep "LLC-load-misses" "$perf_logf.tmp" | awk '{print $1}' | tr -d ',')
+
+                      # ---------- Calcolo percentuali ----------
+                      if [[ -n "$L1_loads" && -n "$L1_miss" && "$L1_loads" != "0" ]]; then
+                          L1_perc=$(awk "BEGIN { printf(\"%.2f\", ($L1_miss / $L1_loads) * 100) }")
+                      else
+                          L1_perc="NA"
+                      fi
+
+                      if [[ -n "$LLC_loads" && -n "$LLC_miss" && "$LLC_loads" != "0" ]]; then
+                          LLC_perc=$(awk "BEGIN { printf(\"%.2f\", ($LLC_miss / $LLC_loads) * 100) }")
+                      else
+                          LLC_perc="NA"
+                      fi
+
+                      # ---------- Riga CSV singola ----------
+                      echo "parallel,perf,${MATRIX_NAME},${schedule},${chunk},${th},${i},L1_misses=${L1_miss},L1_percent=${L1_perc},LLC_misses=${LLC_miss},LLC_percent=${LLC_perc},par_perf_${MATRIX_NAME}.log" \
+                          >> "$CSV_PERF"
+
+                      # Salva log dettagliato
+                      cat "$perf_logf.tmp" >> "$perf_logf"
+                      rm -f "$perf_logf.tmp"
+                  done
+              fi
+            done
+        done
+    done
+done
+
+echo -e "\n=== Runs completed ===\n"
+if [[ "$PERF_ENABLE" == true ]]; then
+    echo "Perf results saved to $CSV_PERF"
+else
+    echo "Normal results saved to $CSV"
+fi
+echo "Logs: $LOGDIR"
+echo "Perf logs: $PERFDIR"

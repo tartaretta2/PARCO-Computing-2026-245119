@@ -110,17 +110,19 @@ void csr_matvec(const Matrix *mat, const double *x, double *y)
     #ifdef _OPENMP
         #pragma omp parallel for schedule(runtime)
     #endif
-
-    for (i = 0; i < mat->M; i++)
-    {
-        double sum = 0.0;
-        int j;
-        for (j = mat->prefixSum[i]; j < mat->prefixSum[i + 1]; j++)
-        {
-            sum += mat->sorted_val[j] * x[mat->sorted_J[j]];
+        for (i = 0; i < mat->M; i++)
+        {         
+            double sum = 0.0;
+            int j;
+            for (j = mat->prefixSum[i]; j < mat->prefixSum[i + 1]; j++)
+            {
+                sum += mat->sorted_val[j] * x[mat->sorted_J[j]];
+            }
+            y[i] = sum;
         }
-        y[i] = sum;
-    }
+    
+
+    
 }
 
 void print_csr(const Matrix *mat)
@@ -129,7 +131,7 @@ void print_csr(const Matrix *mat)
     int i;
     for (i = 0; i < mat->nz; ++i)
     {
-        printf("%d | ", mat->sorted_val[i]);
+        printf("%lf | ", mat->sorted_val[i]);
     }
 
     printf("\nPrefix sum: ");
