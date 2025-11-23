@@ -70,10 +70,10 @@ set -euo pipefail
 
 # CONFIGURATION
 WORKDIR="$PBS_O_WORKDIR"
-BASE_DIR=".."                           # Directory principale del progetto
-SOURCE_DIR="${BASE_DIR}/src"            # Sorgenti C
-OUTDIR="${BASE_DIR}/results"            # Cartella risultati
-MATRIX_DIR="${BASE_DIR}/data_matrices"  # Matrici
+BASE_DIR=".."                           
+SOURCE_DIR="${BASE_DIR}/src"            
+OUTDIR="${BASE_DIR}/results"           
+MATRIX_DIR="${BASE_DIR}/data_matrices" 
 
 echo "[INFO] Base dir:    $BASE_DIR"
 echo "[INFO] Source dir:  $SOURCE_DIR"
@@ -101,10 +101,8 @@ CC=${CC:-gcc}
 LOGDIR="$OUTDIR/code_logs"
 BINDIR="$OUTDIR/bin"
 
-# Crea le directory se non esistono
 mkdir -p "$LOGDIR" "$BINDIR"
 
-# Pulisci binari vecchi
 echo "[INFO] Cleaning old binaries..."
 rm -f "${BINDIR}/${SEQ_BIN}" "${BINDIR}/${PAR_BIN}"
 
@@ -130,7 +128,6 @@ $CC -g -Wall -O3 -std=c11 -o "${BINDIR}/${SEQ_BIN}" $SOURCE_FILES || {
     exit 1
 }
 
-# Verifica che il binario sia eseguibile
 if [[ ! -x "${BINDIR}/${SEQ_BIN}" ]]; then
     echo "ERROR: Sequential binary is not executable"
     ls -la "${BINDIR}/${SEQ_BIN}"
@@ -144,7 +141,6 @@ $CC -g -Wall -O3 -fopenmp -std=c11 -o "${BINDIR}/${PAR_BIN}" $SOURCE_FILES || {
     exit 1
 }
 
-# Verifica che il binario sia eseguibile
 if [[ ! -x "${BINDIR}/${PAR_BIN}" ]]; then
     echo "ERROR: Parallel binary is not executable"
     ls -la "${BINDIR}/${PAR_BIN}"
@@ -272,7 +268,6 @@ echo -e "\n=== Runs completed ===\n"
 echo "Results saved to $CSV"
 echo "Logs: $LOGDIR"
 
-# Mostra statistiche finali
 echo -e "\n=== Final Statistics ==="
 echo "Total lines in CSV: $(wc -l < "$CSV")"
 echo "Sequential runs: $(grep -c "^sequential" "$CSV" || echo 0)"
@@ -285,7 +280,6 @@ echo -e "\n=========================================="
 echo "RUNNING PYTHON ANALYSIS"
 echo "=========================================="
 
-# Carica Python compilato con gcc91 (stesso del tuo codice)
 module load python-3.10.14_gcc91
 
 if ! command -v python3 &> /dev/null; then
@@ -294,7 +288,6 @@ else
     echo "[INFO] Python version: $(python3 --version)"
     echo "[INFO] Python path: $(which python3)"
     
-    # Crea virtual environment
     VENV_DIR="$BASE_DIR/.venv"
     if [[ ! -d "$VENV_DIR" ]]; then
         echo "[INFO] Creating virtual environment..."
@@ -304,13 +297,11 @@ else
         }
     fi
     
-    # Attiva venv se esiste
     if [[ -n "$VENV_DIR" && -d "$VENV_DIR" ]]; then
         echo "[INFO] Activating virtual environment..."
         source "$VENV_DIR/bin/activate"
     fi
     
-    # Installa dipendenze
     echo "[INFO] Installing Python packages..."
     pip install --quiet --upgrade pip 2>/dev/null || true
     pip install --quiet pandas matplotlib numpy 2>/dev/null || {
@@ -318,13 +309,11 @@ else
         pip install --user --quiet pandas matplotlib numpy 2>/dev/null || true
     }
     
-    # Verifica installazione
     echo "[INFO] Checking packages..."
     python3 -c "import pandas; print(f'pandas {pandas.__version__}')" 2>/dev/null || echo "[WARNING] pandas not found"
     python3 -c "import matplotlib; print(f'matplotlib {matplotlib.__version__}')" 2>/dev/null || echo "[WARNING] matplotlib not found"
     python3 -c "import numpy; print(f'numpy {numpy.__version__}')" 2>/dev/null || echo "[WARNING] numpy not found"
     
-    # Esegui script di analisi
     ANALYSIS_SCRIPT="$BASE_DIR/scripts/code_analysis.py"
     
     if [[ -f "$ANALYSIS_SCRIPT" ]]; then
@@ -334,7 +323,6 @@ else
         if [[ $? -eq 0 ]]; then
             echo "[INFO] Plots saved in: $OUTDIR/code_plots/"
             
-            # Lista i file generati
             if [[ -d "$OUTDIR/code_plots" ]]; then
                 echo "[INFO] Generated files:"
                 ls -lh "$OUTDIR/code_plots/" | grep -E "\.png|\.csv"
@@ -346,7 +334,6 @@ else
         echo "[ERROR] Analysis script not found: $ANALYSIS_SCRIPT"
     fi
     
-    # Deattiva venv
     if [[ -n "$VENV_DIR" && -d "$VENV_DIR" ]]; then
         deactivate
     fi

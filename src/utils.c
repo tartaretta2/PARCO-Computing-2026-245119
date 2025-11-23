@@ -37,7 +37,6 @@ void readMatrixMarket(const char *filename, Matrix *mat)
     mat->J = (int *)malloc(mat->nz * sizeof(int));
     mat->val = (double *)malloc(mat->nz * sizeof(double));
 
-    //printf("\nReading Matrix Market File...\n");
     int i;
     for (i = 0; i < mat->nz; i++)
     {
@@ -48,15 +47,11 @@ void readMatrixMarket(const char *filename, Matrix *mat)
 
     if (f != stdin)
         fclose(f);
-
-    //printf("Reading completed!\n");
 }
 
 // Function to convert COO format to CSR format
 void coo_to_csr(Matrix *mat)
 {
-    //printf("\nConverting COO to CSR...\n");
-
     int i;
 
     // Count non-zeros per row
@@ -66,7 +61,7 @@ void coo_to_csr(Matrix *mat)
         row_counts[mat->I[i]]++;
     }
 
-    // Prefix sum per row_ptr
+    // Prefix sum creation
     mat->prefixSum = (int *)malloc((mat->M + 1) * sizeof(int));
     mat->prefixSum[0] = 0;
     for (i = 0; i < mat->M; i++)
@@ -98,8 +93,6 @@ void coo_to_csr(Matrix *mat)
 
     free(row_counts);
     free(next_pos);
-
-    //printf("CSR conversion complete!\n");
 }
 
 // function to perform CSR matrix-vector multiplication

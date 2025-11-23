@@ -1,8 +1,3 @@
-//
-//  main.c
-//  SparseMatrix
-//
-//
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -48,8 +43,6 @@ int main(int argc, const char *argv[])
     // ---- SET OMP PARAMETERS ----
     omp_set_num_threads(num_threads);
     omp_set_schedule(sched_type, chunk);
-
-    // ---- DEBUG PRINT ----
     
     omp_sched_t st;
     int cs;
@@ -76,15 +69,12 @@ int main(int argc, const char *argv[])
         vector[i] = ((double)rand() / (double)RAND_MAX) * 20.0 - 10.0;
     }
 
-    // print matrix CSR vector
-    //print_csr(&mat);
-
     // Perform CSR matrix-vector multiplication
     const char *matrix_name = strrchr(argv[1], '/');
     if (matrix_name != NULL) {
-      matrix_name++;  // salta lo slash
+      matrix_name++;  // skip slash character
     } else {
-        matrix_name = argv[1]; // non c’è lo slash
+        matrix_name = argv[1]; // no slash found
     }
     printf("\n=== MATRIX: %s ===\n", matrix_name);
     
@@ -101,11 +91,9 @@ int main(int argc, const char *argv[])
 
     elapsed = finish - start;
     
-    //print_result(result, (&mat)->N);
     printf("\nWARMUP_TIME=%f\n\n", elapsed);
-    
-    
-    
+        
+    //MEASURED RUNS
     for(i = 0; i < repeats; ++i){
 
       #ifdef _OPENMP
@@ -119,7 +107,6 @@ int main(int argc, const char *argv[])
   
       elapsed = finish - start;
       
-      //print_result(result, (&mat)->N);
       printf("\nSPMV_TIME=%f\n\n", elapsed);
     }
     

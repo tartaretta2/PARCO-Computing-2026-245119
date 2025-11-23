@@ -71,10 +71,10 @@ set -euo pipefail
 
 # CONFIGURATION
 WORKDIR="$PBS_O_WORKDIR"
-BASE_DIR=".."                           # Directory principale del progetto
-SOURCE_DIR="${BASE_DIR}/src"            # Sorgenti C
-OUTDIR="${BASE_DIR}/results"            # Cartella risultati
-MATRIX_DIR="${BASE_DIR}/data_matrices"  # Matrici
+BASE_DIR=".."                           
+SOURCE_DIR="${BASE_DIR}/src"            
+OUTDIR="${BASE_DIR}/results"            
+MATRIX_DIR="${BASE_DIR}/data_matrices"  
 
 echo "[INFO] Base dir:    $BASE_DIR"
 echo "[INFO] Source dir:  $SOURCE_DIR"
@@ -104,10 +104,8 @@ PERF_CMD=$(command -v perf || true)
 PERFDIR="$OUTDIR/perf_logs"
 BINDIR="$OUTDIR/bin"
 
-# Crea le directory se non esistono
 mkdir -p "$PERFDIR" "$BINDIR"
 
-# Pulisci binari vecchi
 echo "[INFO] Cleaning old binaries..."
 rm -f "${BINDIR}/${SEQ_BIN}" "${BINDIR}/${PAR_BIN}"
 
@@ -165,7 +163,6 @@ for MATRIX in "${MATRIX_FILES[@]}"; do
     FILENAME=$(basename "$MATRIX")
     MATRIX_NAME="${FILENAME%.mtx}"
     
-    # Crea file temporaneo appropriato
     TEMP_CSV_PERF="${CSV_PERF}_${MATRIX_NAME}.tmp"
     > "$TEMP_CSV_PERF"
     
@@ -270,7 +267,6 @@ echo -e "\n=== Runs completed ===\n"
 echo "Perf results saved to $CSV_PERF"
 echo "Perf logs: $PERFDIR"
 
-# Mostra statistiche finali
 echo -e "\n=== Final Statistics ==="
 echo "Total lines in perf CSV: $(wc -l < "$CSV_PERF")"
 echo "Sequential perf runs: $(grep -c "^sequential" "$CSV_PERF" || echo 0)"
@@ -303,7 +299,6 @@ else
         pip install --user --quiet pandas matplotlib numpy 2>/dev/null || true
     }
     
-    # Verifica installazione
     echo "[INFO] Checking packages..."
     python3 -c "import pandas; print(f'pandas {pandas.__version__}')" 2>/dev/null || echo "[WARNING] pandas not found"
     python3 -c "import matplotlib; print(f'matplotlib {matplotlib.__version__}')" 2>/dev/null || echo "[WARNING] matplotlib not found"

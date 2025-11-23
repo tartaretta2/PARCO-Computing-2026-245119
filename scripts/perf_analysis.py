@@ -8,7 +8,6 @@ import numpy as np
 from pathlib import Path
 import sys
 
-# Configurazione
 BASE_DIR = Path(__file__).parent.parent
 CSV_PATH = BASE_DIR / "results3" / "perf_summary.csv"
 OUTPUT_DIR = BASE_DIR / "results3" / "perf_plots"
@@ -17,15 +16,12 @@ print(f"[INFO] Base directory: {BASE_DIR}")
 print(f"[INFO] CSV path: {CSV_PATH}")
 print(f"[INFO] Output directory: {OUTPUT_DIR}")
 
-# Crea directory output
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Verifica che il CSV esista
 if not CSV_PATH.exists():
     print(f"[ERROR] CSV file not found: {CSV_PATH}")
     sys.exit(1)
 
-# Leggi il CSV
 try:
     df = pd.read_csv(CSV_PATH)
     print(f"[INFO] Successfully loaded CSV with {len(df)} rows")
@@ -37,11 +33,9 @@ print(f"[INFO] Total measurements: {len(df)}")
 print(f"[INFO] Matrices: {df['matrix'].unique().tolist()}")
 print(f"[INFO] Columns: {df.columns.tolist()}\n")
 
-# Converti colonne numeriche
 df['chunk'] = pd.to_numeric(df['chunk'], errors='coerce')
 df['threads'] = pd.to_numeric(df['threads'], errors='coerce')
 
-# Parsing dei valori dalle colonne
 def parse_metric(col_str):
     try:
         if pd.isna(col_str) or col_str == 'NA':
@@ -52,7 +46,6 @@ def parse_metric(col_str):
     except:
         return np.nan
 
-# Parse delle colonne metriche
 df['L1_misses_val'] = df['L1_misses'].apply(parse_metric)
 df['L1_percent_val'] = df['L1_percent'].apply(parse_metric)
 df['LLC_misses_val'] = df['LLC_misses'].apply(parse_metric)
@@ -62,7 +55,6 @@ print("[INFO] Parsed metric values")
 print(f"[INFO] L1 miss rate range: {df['L1_percent_val'].min():.2f}% - {df['L1_percent_val'].max():.2f}%")
 print(f"[INFO] LLC miss rate range: {df['LLC_percent_val'].min():.2f}% - {df['LLC_percent_val'].max():.2f}%\n")
 
-# Crea identificatore configurazione
 def create_config_id(row):
     if row['run_type'] == 'sequential':
         return 'seq'
@@ -74,7 +66,6 @@ def create_config_id(row):
 
 df['config'] = df.apply(create_config_id, axis=1)
 
-# Calcola statistiche aggregate
 print("[INFO] Computing statistics...")
 stats = df.groupby(['matrix', 'config', 'run_type', 'schedule', 'chunk', 'threads']).agg({
     'L1_misses_val': ['mean', 'std', 'min', 'max'],
@@ -84,19 +75,16 @@ stats = df.groupby(['matrix', 'config', 'run_type', 'schedule', 'chunk', 'thread
     'repeat': 'count'
 }).reset_index()
 
-# Flatten column names
 stats.columns = ['_'.join(col).strip('_') if col[1] else col[0] for col in stats.columns.values]
 
-# Salva statistiche
 stats_csv = OUTPUT_DIR / "perf_statistics_summary.csv"
 stats.to_csv(stats_csv, index=False)
 print(f"[INFO] Statistics saved to {stats_csv}\n")
 
-# Ordine fisso per chunk e threads
 CHUNK_ORDER = [1, 10, 100, 1000, 10000]
 THREAD_ORDER = [1, 2, 4, 8, 16, 32, 64]
 
-# === PLOT 1: Heatmap cache miss - TUTTI GLI SCHEDULING IN UNA FIGURA ===
+# === PLOT 1: Heatmap cache miss ===
 print("[INFO] Generating combined cache miss heatmaps...")
 for matrix in df['matrix'].unique():
     df_par = df[(df['matrix'] == matrix) & (df['run_type'] == 'parallel')]
@@ -104,7 +92,6 @@ for matrix in df['matrix'].unique():
     if len(df_par) == 0:
         continue
     
-    # 3 scheduling x 2 metriche (L1 e LLC) = 3 colonne, 2 righe
     fig, axes = plt.subplots(2, 3, figsize=(20, 12))
     
     for idx, schedule in enumerate(['static', 'dynamic', 'guided']):
@@ -115,7 +102,6 @@ for matrix in df['matrix'].unique():
             axes[1, idx].text(0.5, 0.5, 'No data', ha='center', va='center', transform=axes[1, idx].transAxes)
             continue
         
-        # L1 heatmap (riga 0)
         pivot_l1 = df_sched.groupby(['chunk', 'threads'])['L1_percent_val'].mean().reset_index()
         pivot_table_l1 = pivot_l1.pivot(index='chunk', columns='threads', values='L1_percent_val')
         
@@ -148,7 +134,6 @@ for matrix in df['matrix'].unique():
         
         plt.colorbar(im1, ax=axes[0, idx], label='Miss Rate (%)')
         
-        # LLC heatmap (riga 1)
         pivot_llc = df_sched.groupby(['chunk', 'threads'])['LLC_percent_val'].mean().reset_index()
         pivot_table_llc = pivot_llc.pivot(index='chunk', columns='threads', values='LLC_percent_val')
         
@@ -188,7 +173,7 @@ for matrix in df['matrix'].unique():
     plt.close()
     print(f"[INFO] Saved: {plot_path.name}")
 
-# === PLOT 2: Miss rate vs numero di threads ===
+# === PLOT 2: Miss rate vs number of threads ===
 print("[INFO] Generating miss rate vs threads plots...")
 for matrix in df['matrix'].unique():
     df_par = df[(df['matrix'] == matrix) & (df['run_type'] == 'parallel')]
@@ -250,7 +235,7 @@ for matrix in df['matrix'].unique():
     plt.close()
     print(f"[INFO] Saved: {plot_path.name}")
 
-# === PLOT 3: Istogramma best chunk - TUTTI GLI SCHEDULING IN UNA FIGURA ===
+# === PLOT 3: best chunk histograms ===
 print("[INFO] Generating combined best chunk histograms...")
 for matrix in df['matrix'].unique():
     df_par = df[(df['matrix'] == matrix) & (df['run_type'] == 'parallel')]
@@ -269,7 +254,6 @@ for matrix in df['matrix'].unique():
             ax.set_title(f'{schedule.capitalize()}', fontsize=12, fontweight='bold')
             continue
         
-        # Per ogni thread, trova il chunk con il minor L1 miss rate medio
         best_data = []
         available_threads = [t for t in THREAD_ORDER if t in df_sched['threads'].unique()]
         
@@ -303,7 +287,6 @@ for matrix in df['matrix'].unique():
         bars_llc = ax.bar(x_pos + width/2, df_best['LLC_percent'], width,
                          label='LLC Miss Rate', color='#e74c3c', alpha=0.8, edgecolor='black')
         
-        # Annotazioni con il best chunk
         for i, row in df_best.iterrows():
             max_height = max(row['L1_percent'], row['LLC_percent'])
             ax.annotate(f'c={int(row["best_chunk"])}',
@@ -370,7 +353,7 @@ for matrix in df['matrix'].unique():
     plt.close()
     print(f"[INFO] Saved: {plot_path.name}")
 
-# === SUMMARY FINALE ===
+# === FINAL SUMMARY ===
 print("\n" + "=" * 80)
 print("BEST CHUNK PER THREAD SUMMARY")
 print("=" * 80)
