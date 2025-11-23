@@ -1,0 +1,4830 @@
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.021172
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #0
+SPMV_TIME=0.020103
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #1
+SPMV_TIME=0.020164
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #2
+SPMV_TIME=0.020199
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #3
+SPMV_TIME=0.020312
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #4
+SPMV_TIME=0.020262
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #5
+SPMV_TIME=0.020212
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #6
+SPMV_TIME=0.020239
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #7
+SPMV_TIME=0.020206
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #8
+SPMV_TIME=0.020226
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #9
+SPMV_TIME=0.020183
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.019735
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #0
+SPMV_TIME=0.021312
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #1
+SPMV_TIME=0.020326
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #2
+SPMV_TIME=0.020375
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #3
+SPMV_TIME=0.020243
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #4
+SPMV_TIME=0.020222
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #5
+SPMV_TIME=0.020230
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #6
+SPMV_TIME=0.020280
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #7
+SPMV_TIME=0.020207
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #8
+SPMV_TIME=0.020225
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #9
+SPMV_TIME=0.020175
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.020271
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #0
+SPMV_TIME=0.008323
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #1
+SPMV_TIME=0.008319
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #2
+SPMV_TIME=0.008317
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #3
+SPMV_TIME=0.008328
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #4
+SPMV_TIME=0.008311
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #5
+SPMV_TIME=0.008313
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #6
+SPMV_TIME=0.008305
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #7
+SPMV_TIME=0.008326
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #8
+SPMV_TIME=0.008298
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #9
+SPMV_TIME=0.008333
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.020622
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #0
+SPMV_TIME=0.010291
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #1
+SPMV_TIME=0.009091
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #2
+SPMV_TIME=0.008678
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #3
+SPMV_TIME=0.008496
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #4
+SPMV_TIME=0.008401
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #5
+SPMV_TIME=0.008304
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #6
+SPMV_TIME=0.008275
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #7
+SPMV_TIME=0.008265
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #8
+SPMV_TIME=0.008185
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #9
+SPMV_TIME=0.008244
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.028667
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #0
+SPMV_TIME=0.008128
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #1
+SPMV_TIME=0.007875
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #2
+SPMV_TIME=0.007788
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #3
+SPMV_TIME=0.007703
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #4
+SPMV_TIME=0.007632
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #5
+SPMV_TIME=0.007679
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #6
+SPMV_TIME=0.007663
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #7
+SPMV_TIME=0.007618
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #8
+SPMV_TIME=0.007633
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #9
+SPMV_TIME=0.007611
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.028094
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #0
+SPMV_TIME=0.008728
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #1
+SPMV_TIME=0.007757
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #2
+SPMV_TIME=0.007344
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #3
+SPMV_TIME=0.006962
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #4
+SPMV_TIME=0.006902
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #5
+SPMV_TIME=0.006832
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #6
+SPMV_TIME=0.006856
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #7
+SPMV_TIME=0.006849
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #8
+SPMV_TIME=0.006804
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #9
+SPMV_TIME=0.006838
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.037676
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #0
+SPMV_TIME=0.039979
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #1
+SPMV_TIME=0.013791
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #2
+SPMV_TIME=0.025978
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #3
+SPMV_TIME=0.026001
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #4
+SPMV_TIME=0.032736
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #5
+SPMV_TIME=0.062803
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #6
+SPMV_TIME=0.025659
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #7
+SPMV_TIME=0.026000
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #8
+SPMV_TIME=0.025999
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #9
+SPMV_TIME=0.025998
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.021002
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #0
+SPMV_TIME=0.020054
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #1
+SPMV_TIME=0.020045
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #2
+SPMV_TIME=0.020075
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #3
+SPMV_TIME=0.020018
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #4
+SPMV_TIME=0.020054
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #5
+SPMV_TIME=0.020058
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #6
+SPMV_TIME=0.020032
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #7
+SPMV_TIME=0.020030
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #8
+SPMV_TIME=0.020193
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #9
+SPMV_TIME=0.020187
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.012781
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #0
+SPMV_TIME=0.014916
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #1
+SPMV_TIME=0.014822
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #2
+SPMV_TIME=0.014799
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #3
+SPMV_TIME=0.014872
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #4
+SPMV_TIME=0.014856
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #5
+SPMV_TIME=0.014831
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #6
+SPMV_TIME=0.014767
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #7
+SPMV_TIME=0.014749
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #8
+SPMV_TIME=0.014832
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #9
+SPMV_TIME=0.014872
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.017179
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #0
+SPMV_TIME=0.007767
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #1
+SPMV_TIME=0.007701
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #2
+SPMV_TIME=0.007451
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #3
+SPMV_TIME=0.007535
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #4
+SPMV_TIME=0.007451
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #5
+SPMV_TIME=0.007484
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #6
+SPMV_TIME=0.007395
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #7
+SPMV_TIME=0.007436
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #8
+SPMV_TIME=0.007467
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #9
+SPMV_TIME=0.007420
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.008933
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #0
+SPMV_TIME=0.007137
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #1
+SPMV_TIME=0.007419
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #2
+SPMV_TIME=0.006775
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #3
+SPMV_TIME=0.006762
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #4
+SPMV_TIME=0.006744
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #5
+SPMV_TIME=0.006770
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #6
+SPMV_TIME=0.006691
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #7
+SPMV_TIME=0.006722
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #8
+SPMV_TIME=0.006700
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #9
+SPMV_TIME=0.006708
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.022382
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #0
+SPMV_TIME=0.004831
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #1
+SPMV_TIME=0.004005
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #2
+SPMV_TIME=0.003721
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #3
+SPMV_TIME=0.003571
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #4
+SPMV_TIME=0.003531
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #5
+SPMV_TIME=0.003461
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #6
+SPMV_TIME=0.003439
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #7
+SPMV_TIME=0.003450
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #8
+SPMV_TIME=0.003437
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #9
+SPMV_TIME=0.003474
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.027123
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #0
+SPMV_TIME=0.026025
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #1
+SPMV_TIME=0.019974
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #2
+SPMV_TIME=0.003336
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #3
+SPMV_TIME=0.003133
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #4
+SPMV_TIME=0.003073
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #5
+SPMV_TIME=0.003023
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #6
+SPMV_TIME=0.003007
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #7
+SPMV_TIME=0.002989
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #8
+SPMV_TIME=0.002989
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #9
+SPMV_TIME=0.002983
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.035187
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #0
+SPMV_TIME=0.057601
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #1
+SPMV_TIME=0.035076
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #2
+SPMV_TIME=0.038804
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #3
+SPMV_TIME=0.031888
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #4
+SPMV_TIME=0.031788
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #5
+SPMV_TIME=0.041787
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #6
+SPMV_TIME=0.025991
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #7
+SPMV_TIME=0.025998
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #8
+SPMV_TIME=0.025991
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #9
+SPMV_TIME=0.025995
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.021129
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #0
+SPMV_TIME=0.020135
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #1
+SPMV_TIME=0.020112
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #2
+SPMV_TIME=0.020128
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #3
+SPMV_TIME=0.020102
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #4
+SPMV_TIME=0.020134
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #5
+SPMV_TIME=0.020046
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #6
+SPMV_TIME=0.020091
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #7
+SPMV_TIME=0.020120
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #8
+SPMV_TIME=0.020227
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #9
+SPMV_TIME=0.020133
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.011933
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #0
+SPMV_TIME=0.013968
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #1
+SPMV_TIME=0.013833
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #2
+SPMV_TIME=0.013758
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #3
+SPMV_TIME=0.013985
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #4
+SPMV_TIME=0.013956
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #5
+SPMV_TIME=0.013761
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #6
+SPMV_TIME=0.013950
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #7
+SPMV_TIME=0.013720
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #8
+SPMV_TIME=0.013967
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #9
+SPMV_TIME=0.013821
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.009081
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #0
+SPMV_TIME=0.005682
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #1
+SPMV_TIME=0.005434
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #2
+SPMV_TIME=0.005441
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #3
+SPMV_TIME=0.005428
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #4
+SPMV_TIME=0.005405
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #5
+SPMV_TIME=0.005439
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #6
+SPMV_TIME=0.005422
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #7
+SPMV_TIME=0.005390
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #8
+SPMV_TIME=0.005425
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #9
+SPMV_TIME=0.005398
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.010104
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #0
+SPMV_TIME=0.004877
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #1
+SPMV_TIME=0.004501
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #2
+SPMV_TIME=0.004623
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #3
+SPMV_TIME=0.004339
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #4
+SPMV_TIME=0.004268
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #5
+SPMV_TIME=0.004241
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #6
+SPMV_TIME=0.004279
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #7
+SPMV_TIME=0.004269
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #8
+SPMV_TIME=0.004284
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #9
+SPMV_TIME=0.004350
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.027551
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #0
+SPMV_TIME=0.003793
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #1
+SPMV_TIME=0.003337
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #2
+SPMV_TIME=0.003109
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #3
+SPMV_TIME=0.002998
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #4
+SPMV_TIME=0.002941
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #5
+SPMV_TIME=0.002896
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #6
+SPMV_TIME=0.002915
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #7
+SPMV_TIME=0.002913
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #8
+SPMV_TIME=0.002934
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #9
+SPMV_TIME=0.002950
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.021388
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #0
+SPMV_TIME=0.003610
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #1
+SPMV_TIME=0.002948
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #2
+SPMV_TIME=0.002680
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #3
+SPMV_TIME=0.002569
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #4
+SPMV_TIME=0.002555
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #5
+SPMV_TIME=0.002641
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #6
+SPMV_TIME=0.002528
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #7
+SPMV_TIME=0.002512
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #8
+SPMV_TIME=0.002498
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #9
+SPMV_TIME=0.002514
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.027086
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #0
+SPMV_TIME=0.051628
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #1
+SPMV_TIME=0.025997
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #2
+SPMV_TIME=0.025997
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #3
+SPMV_TIME=0.025989
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #4
+SPMV_TIME=0.025997
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #5
+SPMV_TIME=0.025997
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #6
+SPMV_TIME=0.026000
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #7
+SPMV_TIME=0.021009
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #8
+SPMV_TIME=0.025980
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #9
+SPMV_TIME=0.025996
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.020957
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #0
+SPMV_TIME=0.020086
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #1
+SPMV_TIME=0.020076
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #2
+SPMV_TIME=0.020110
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #3
+SPMV_TIME=0.020137
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #4
+SPMV_TIME=0.020176
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #5
+SPMV_TIME=0.020100
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #6
+SPMV_TIME=0.020167
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #7
+SPMV_TIME=0.020112
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #8
+SPMV_TIME=0.020089
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #9
+SPMV_TIME=0.020070
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.013126
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #0
+SPMV_TIME=0.014310
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #1
+SPMV_TIME=0.014224
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #2
+SPMV_TIME=0.014177
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #3
+SPMV_TIME=0.014077
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #4
+SPMV_TIME=0.014006
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #5
+SPMV_TIME=0.013888
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #6
+SPMV_TIME=0.013878
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #7
+SPMV_TIME=0.014175
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #8
+SPMV_TIME=0.014054
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #9
+SPMV_TIME=0.013909
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.009967
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #0
+SPMV_TIME=0.009232
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #1
+SPMV_TIME=0.009138
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #2
+SPMV_TIME=0.009045
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #3
+SPMV_TIME=0.009091
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #4
+SPMV_TIME=0.009031
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #5
+SPMV_TIME=0.008912
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #6
+SPMV_TIME=0.008986
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #7
+SPMV_TIME=0.008919
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #8
+SPMV_TIME=0.008837
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #9
+SPMV_TIME=0.008944
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.027660
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #0
+SPMV_TIME=0.019960
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #1
+SPMV_TIME=0.004445
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #2
+SPMV_TIME=0.004326
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #3
+SPMV_TIME=0.004238
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #4
+SPMV_TIME=0.004231
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #5
+SPMV_TIME=0.004251
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #6
+SPMV_TIME=0.004257
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #7
+SPMV_TIME=0.004217
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #8
+SPMV_TIME=0.004213
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #9
+SPMV_TIME=0.004207
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.008908
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #0
+SPMV_TIME=0.004778
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #1
+SPMV_TIME=0.004583
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #2
+SPMV_TIME=0.004449
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #3
+SPMV_TIME=0.004478
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #4
+SPMV_TIME=0.004362
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #5
+SPMV_TIME=0.004373
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #6
+SPMV_TIME=0.004345
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #7
+SPMV_TIME=0.004347
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #8
+SPMV_TIME=0.004351
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #9
+SPMV_TIME=0.004345
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.026678
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #0
+SPMV_TIME=0.025913
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #1
+SPMV_TIME=0.025990
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #2
+SPMV_TIME=0.007004
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #3
+SPMV_TIME=0.002634
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #4
+SPMV_TIME=0.002559
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #5
+SPMV_TIME=0.002509
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #6
+SPMV_TIME=0.002494
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #7
+SPMV_TIME=0.002489
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #8
+SPMV_TIME=0.002493
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #9
+SPMV_TIME=0.002471
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.027456
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #0
+SPMV_TIME=0.049732
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #1
+SPMV_TIME=0.025998
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #2
+SPMV_TIME=0.034283
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #3
+SPMV_TIME=0.043705
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #4
+SPMV_TIME=0.028408
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #5
+SPMV_TIME=0.035866
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #6
+SPMV_TIME=0.035518
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #7
+SPMV_TIME=0.002452
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #8
+SPMV_TIME=0.001987
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #9
+SPMV_TIME=0.001815
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.020983
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #0
+SPMV_TIME=0.020068
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #1
+SPMV_TIME=0.020126
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #2
+SPMV_TIME=0.020147
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #3
+SPMV_TIME=0.020149
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #4
+SPMV_TIME=0.020104
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #5
+SPMV_TIME=0.020054
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #6
+SPMV_TIME=0.020046
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #7
+SPMV_TIME=0.020198
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #8
+SPMV_TIME=0.020191
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #9
+SPMV_TIME=0.020228
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.012028
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #0
+SPMV_TIME=0.012868
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #1
+SPMV_TIME=0.012955
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #2
+SPMV_TIME=0.012896
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #3
+SPMV_TIME=0.012846
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #4
+SPMV_TIME=0.012820
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #5
+SPMV_TIME=0.012801
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #6
+SPMV_TIME=0.012699
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #7
+SPMV_TIME=0.012619
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #8
+SPMV_TIME=0.012591
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #9
+SPMV_TIME=0.012836
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.030135
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #0
+SPMV_TIME=0.006358
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #1
+SPMV_TIME=0.006637
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #2
+SPMV_TIME=0.006296
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #3
+SPMV_TIME=0.006243
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #4
+SPMV_TIME=0.006250
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #5
+SPMV_TIME=0.006274
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #6
+SPMV_TIME=0.006271
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #7
+SPMV_TIME=0.006251
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #8
+SPMV_TIME=0.006255
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #9
+SPMV_TIME=0.006268
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.014680
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #0
+SPMV_TIME=0.005513
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #1
+SPMV_TIME=0.005233
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #2
+SPMV_TIME=0.004968
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #3
+SPMV_TIME=0.004812
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #4
+SPMV_TIME=0.004751
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #5
+SPMV_TIME=0.004717
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #6
+SPMV_TIME=0.004720
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #7
+SPMV_TIME=0.004691
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #8
+SPMV_TIME=0.004678
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #9
+SPMV_TIME=0.004664
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.020060
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #0
+SPMV_TIME=0.004937
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #1
+SPMV_TIME=0.004709
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #2
+SPMV_TIME=0.004615
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #3
+SPMV_TIME=0.004529
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #4
+SPMV_TIME=0.004511
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #5
+SPMV_TIME=0.004501
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #6
+SPMV_TIME=0.004493
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #7
+SPMV_TIME=0.004457
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #8
+SPMV_TIME=0.004505
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #9
+SPMV_TIME=0.004446
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.026517
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #0
+SPMV_TIME=0.027775
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #1
+SPMV_TIME=0.021209
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #2
+SPMV_TIME=0.004956
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #3
+SPMV_TIME=0.004764
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #4
+SPMV_TIME=0.004660
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #5
+SPMV_TIME=0.004628
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #6
+SPMV_TIME=0.004588
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #7
+SPMV_TIME=0.004635
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #8
+SPMV_TIME=0.004544
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #9
+SPMV_TIME=0.004575
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.030288
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #0
+SPMV_TIME=0.026455
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #1
+SPMV_TIME=0.025827
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #2
+SPMV_TIME=0.030158
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #3
+SPMV_TIME=0.038601
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #4
+SPMV_TIME=0.027180
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #5
+SPMV_TIME=0.025907
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #6
+SPMV_TIME=0.027349
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #7
+SPMV_TIME=0.025152
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #8
+SPMV_TIME=0.025993
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #9
+SPMV_TIME=0.025998
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.023040
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #0
+SPMV_TIME=0.022238
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #1
+SPMV_TIME=0.022252
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #2
+SPMV_TIME=0.022318
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #3
+SPMV_TIME=0.022346
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #4
+SPMV_TIME=0.022272
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #5
+SPMV_TIME=0.022308
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #6
+SPMV_TIME=0.022266
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #7
+SPMV_TIME=0.022249
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #8
+SPMV_TIME=0.022269
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #9
+SPMV_TIME=0.022266
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.017810
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #0
+SPMV_TIME=0.017231
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #1
+SPMV_TIME=0.017190
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #2
+SPMV_TIME=0.017178
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #3
+SPMV_TIME=0.017169
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #4
+SPMV_TIME=0.017195
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #5
+SPMV_TIME=0.017219
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #6
+SPMV_TIME=0.017165
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #7
+SPMV_TIME=0.017220
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #8
+SPMV_TIME=0.017153
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #9
+SPMV_TIME=0.017119
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.028983
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #0
+SPMV_TIME=0.015151
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #1
+SPMV_TIME=0.014976
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #2
+SPMV_TIME=0.014890
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #3
+SPMV_TIME=0.014900
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #4
+SPMV_TIME=0.014850
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #5
+SPMV_TIME=0.014913
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #6
+SPMV_TIME=0.014908
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #7
+SPMV_TIME=0.014875
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #8
+SPMV_TIME=0.014907
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #9
+SPMV_TIME=0.014834
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.018978
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #0
+SPMV_TIME=0.010746
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #1
+SPMV_TIME=0.010469
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #2
+SPMV_TIME=0.010322
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #3
+SPMV_TIME=0.010245
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #4
+SPMV_TIME=0.010275
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #5
+SPMV_TIME=0.010254
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #6
+SPMV_TIME=0.010249
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #7
+SPMV_TIME=0.010221
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #8
+SPMV_TIME=0.010272
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #9
+SPMV_TIME=0.010199
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.027652
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #0
+SPMV_TIME=0.009610
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #1
+SPMV_TIME=0.009122
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #2
+SPMV_TIME=0.008976
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #3
+SPMV_TIME=0.008929
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #4
+SPMV_TIME=0.008921
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #5
+SPMV_TIME=0.008865
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #6
+SPMV_TIME=0.008875
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #7
+SPMV_TIME=0.008870
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #8
+SPMV_TIME=0.008863
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #9
+SPMV_TIME=0.008838
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.020534
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #0
+SPMV_TIME=0.008819
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #1
+SPMV_TIME=0.008375
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #2
+SPMV_TIME=0.008349
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #3
+SPMV_TIME=0.008325
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #4
+SPMV_TIME=0.008394
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #5
+SPMV_TIME=0.008344
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #6
+SPMV_TIME=0.008386
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #7
+SPMV_TIME=0.008337
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #8
+SPMV_TIME=0.008337
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #9
+SPMV_TIME=0.008390
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.040125
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #0
+SPMV_TIME=0.037979
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #1
+SPMV_TIME=0.034178
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #2
+SPMV_TIME=0.020813
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #3
+SPMV_TIME=0.032990
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #4
+SPMV_TIME=0.031987
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #5
+SPMV_TIME=0.031989
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #6
+SPMV_TIME=0.029999
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #7
+SPMV_TIME=0.028984
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #8
+SPMV_TIME=0.029994
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #9
+SPMV_TIME=0.019995
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.021273
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #0
+SPMV_TIME=0.020371
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #1
+SPMV_TIME=0.020366
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #2
+SPMV_TIME=0.020345
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #3
+SPMV_TIME=0.020273
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #4
+SPMV_TIME=0.020256
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #5
+SPMV_TIME=0.020257
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #6
+SPMV_TIME=0.020359
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #7
+SPMV_TIME=0.020441
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #8
+SPMV_TIME=0.020425
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #9
+SPMV_TIME=0.020374
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.013450
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #0
+SPMV_TIME=0.013922
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #1
+SPMV_TIME=0.013797
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #2
+SPMV_TIME=0.013718
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #3
+SPMV_TIME=0.013682
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #4
+SPMV_TIME=0.013745
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #5
+SPMV_TIME=0.013692
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #6
+SPMV_TIME=0.013698
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #7
+SPMV_TIME=0.013686
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #8
+SPMV_TIME=0.013663
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #9
+SPMV_TIME=0.013662
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.009258
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #0
+SPMV_TIME=0.008717
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #1
+SPMV_TIME=0.008618
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #2
+SPMV_TIME=0.008506
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #3
+SPMV_TIME=0.008395
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #4
+SPMV_TIME=0.008411
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #5
+SPMV_TIME=0.008436
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #6
+SPMV_TIME=0.008417
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #7
+SPMV_TIME=0.008314
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #8
+SPMV_TIME=0.008318
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #9
+SPMV_TIME=0.008300
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.009711
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #0
+SPMV_TIME=0.007465
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #1
+SPMV_TIME=0.007233
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #2
+SPMV_TIME=0.007137
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #3
+SPMV_TIME=0.007054
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #4
+SPMV_TIME=0.007082
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #5
+SPMV_TIME=0.007043
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #6
+SPMV_TIME=0.007031
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #7
+SPMV_TIME=0.007088
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #8
+SPMV_TIME=0.007060
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #9
+SPMV_TIME=0.007025
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.025325
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #0
+SPMV_TIME=0.011997
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #1
+SPMV_TIME=0.006663
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #2
+SPMV_TIME=0.006495
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #3
+SPMV_TIME=0.006411
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #4
+SPMV_TIME=0.006287
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #5
+SPMV_TIME=0.006214
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #6
+SPMV_TIME=0.006176
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #7
+SPMV_TIME=0.006145
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #8
+SPMV_TIME=0.006154
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #9
+SPMV_TIME=0.006117
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.010208
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #0
+SPMV_TIME=0.012151
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #1
+SPMV_TIME=0.010537
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #2
+SPMV_TIME=0.008075
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #3
+SPMV_TIME=0.007316
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #4
+SPMV_TIME=0.006175
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #5
+SPMV_TIME=0.005960
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #6
+SPMV_TIME=0.005800
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #7
+SPMV_TIME=0.005697
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #8
+SPMV_TIME=0.005726
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #9
+SPMV_TIME=0.005569
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.035527
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #0
+SPMV_TIME=0.068983
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #1
+SPMV_TIME=0.063994
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #2
+SPMV_TIME=0.052000
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #3
+SPMV_TIME=0.040997
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #4
+SPMV_TIME=0.025992
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #5
+SPMV_TIME=0.025998
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #6
+SPMV_TIME=0.025998
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #7
+SPMV_TIME=0.026004
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #8
+SPMV_TIME=0.025992
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #9
+SPMV_TIME=0.025997
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.021106
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #0
+SPMV_TIME=0.020236
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #1
+SPMV_TIME=0.020207
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #2
+SPMV_TIME=0.020166
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #3
+SPMV_TIME=0.020196
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #4
+SPMV_TIME=0.020142
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #5
+SPMV_TIME=0.020161
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #6
+SPMV_TIME=0.020133
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #7
+SPMV_TIME=0.020166
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #8
+SPMV_TIME=0.020147
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #9
+SPMV_TIME=0.020234
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.024773
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #0
+SPMV_TIME=0.010232
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #1
+SPMV_TIME=0.010239
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #2
+SPMV_TIME=0.010223
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #3
+SPMV_TIME=0.010230
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #4
+SPMV_TIME=0.010202
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #5
+SPMV_TIME=0.010232
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #6
+SPMV_TIME=0.010233
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #7
+SPMV_TIME=0.010234
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #8
+SPMV_TIME=0.010192
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #9
+SPMV_TIME=0.010210
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.009898
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #0
+SPMV_TIME=0.008290
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #1
+SPMV_TIME=0.008237
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #2
+SPMV_TIME=0.008074
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #3
+SPMV_TIME=0.007898
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #4
+SPMV_TIME=0.007781
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #5
+SPMV_TIME=0.007789
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #6
+SPMV_TIME=0.007862
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #7
+SPMV_TIME=0.007784
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #8
+SPMV_TIME=0.007742
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #9
+SPMV_TIME=0.007613
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.009715
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #0
+SPMV_TIME=0.007108
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #1
+SPMV_TIME=0.007103
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #2
+SPMV_TIME=0.006941
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #3
+SPMV_TIME=0.006785
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #4
+SPMV_TIME=0.006720
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #5
+SPMV_TIME=0.006678
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #6
+SPMV_TIME=0.006435
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #7
+SPMV_TIME=0.006510
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #8
+SPMV_TIME=0.006577
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #9
+SPMV_TIME=0.006415
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.015682
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #0
+SPMV_TIME=0.006847
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #1
+SPMV_TIME=0.006639
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #2
+SPMV_TIME=0.006369
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #3
+SPMV_TIME=0.006099
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #4
+SPMV_TIME=0.005914
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #5
+SPMV_TIME=0.005754
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #6
+SPMV_TIME=0.005778
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #7
+SPMV_TIME=0.005699
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #8
+SPMV_TIME=0.005585
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #9
+SPMV_TIME=0.005471
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.024466
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #0
+SPMV_TIME=0.056932
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #1
+SPMV_TIME=0.025435
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #2
+SPMV_TIME=0.016303
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #3
+SPMV_TIME=0.011468
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #4
+SPMV_TIME=0.007263
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #5
+SPMV_TIME=0.006572
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #6
+SPMV_TIME=0.006706
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #7
+SPMV_TIME=0.005605
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #8
+SPMV_TIME=0.005560
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #9
+SPMV_TIME=0.005485
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.025139
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #0
+SPMV_TIME=0.086466
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #1
+SPMV_TIME=0.059726
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #2
+SPMV_TIME=0.046050
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #3
+SPMV_TIME=0.028764
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #4
+SPMV_TIME=0.019863
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #5
+SPMV_TIME=0.009539
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #6
+SPMV_TIME=0.006407
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #7
+SPMV_TIME=0.005281
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #8
+SPMV_TIME=0.005272
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #9
+SPMV_TIME=0.005144
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.020915
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #0
+SPMV_TIME=0.019890
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #1
+SPMV_TIME=0.019872
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #2
+SPMV_TIME=0.019988
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #3
+SPMV_TIME=0.020051
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #4
+SPMV_TIME=0.020038
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #5
+SPMV_TIME=0.019974
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #6
+SPMV_TIME=0.019945
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #7
+SPMV_TIME=0.019917
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #8
+SPMV_TIME=0.019841
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #9
+SPMV_TIME=0.019799
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.010664
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #0
+SPMV_TIME=0.010117
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #1
+SPMV_TIME=0.010106
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #2
+SPMV_TIME=0.010180
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #3
+SPMV_TIME=0.010084
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #4
+SPMV_TIME=0.010103
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #5
+SPMV_TIME=0.010097
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #6
+SPMV_TIME=0.010132
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #7
+SPMV_TIME=0.010112
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #8
+SPMV_TIME=0.010090
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #9
+SPMV_TIME=0.010101
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.009052
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #0
+SPMV_TIME=0.007814
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #1
+SPMV_TIME=0.007801
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #2
+SPMV_TIME=0.007618
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #3
+SPMV_TIME=0.007428
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #4
+SPMV_TIME=0.007541
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #5
+SPMV_TIME=0.007435
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #6
+SPMV_TIME=0.007236
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #7
+SPMV_TIME=0.007454
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #8
+SPMV_TIME=0.007261
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #9
+SPMV_TIME=0.007346
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.022847
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #0
+SPMV_TIME=0.007831
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #1
+SPMV_TIME=0.007701
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #2
+SPMV_TIME=0.007342
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #3
+SPMV_TIME=0.006932
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #4
+SPMV_TIME=0.006415
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #5
+SPMV_TIME=0.006441
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #6
+SPMV_TIME=0.005858
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #7
+SPMV_TIME=0.006230
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #8
+SPMV_TIME=0.006488
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #9
+SPMV_TIME=0.006410
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.021997
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #0
+SPMV_TIME=0.019240
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #1
+SPMV_TIME=0.006551
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #2
+SPMV_TIME=0.005727
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #3
+SPMV_TIME=0.005705
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #4
+SPMV_TIME=0.005389
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #5
+SPMV_TIME=0.005423
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #6
+SPMV_TIME=0.005002
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #7
+SPMV_TIME=0.005307
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #8
+SPMV_TIME=0.005251
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #9
+SPMV_TIME=0.005266
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.020779
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #0
+SPMV_TIME=0.006960
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #1
+SPMV_TIME=0.006506
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #2
+SPMV_TIME=0.006508
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #3
+SPMV_TIME=0.005383
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #4
+SPMV_TIME=0.005169
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #5
+SPMV_TIME=0.004937
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #6
+SPMV_TIME=0.004570
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #7
+SPMV_TIME=0.004765
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #8
+SPMV_TIME=0.004714
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #9
+SPMV_TIME=0.004706
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.026947
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #0
+SPMV_TIME=0.052220
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #1
+SPMV_TIME=0.035236
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #2
+SPMV_TIME=0.027520
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #3
+SPMV_TIME=0.010348
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #4
+SPMV_TIME=0.005932
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #5
+SPMV_TIME=0.005240
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #6
+SPMV_TIME=0.004999
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #7
+SPMV_TIME=0.004976
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #8
+SPMV_TIME=0.005029
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #9
+SPMV_TIME=0.005014
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.021015
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #0
+SPMV_TIME=0.020098
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #1
+SPMV_TIME=0.020087
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #2
+SPMV_TIME=0.020035
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #3
+SPMV_TIME=0.020045
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #4
+SPMV_TIME=0.020003
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #5
+SPMV_TIME=0.020192
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #6
+SPMV_TIME=0.020178
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #7
+SPMV_TIME=0.020151
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #8
+SPMV_TIME=0.020123
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #9
+SPMV_TIME=0.020093
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.012056
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #0
+SPMV_TIME=0.010964
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #1
+SPMV_TIME=0.010872
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #2
+SPMV_TIME=0.010827
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #3
+SPMV_TIME=0.010872
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #4
+SPMV_TIME=0.010840
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #5
+SPMV_TIME=0.010834
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #6
+SPMV_TIME=0.010836
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #7
+SPMV_TIME=0.010922
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #8
+SPMV_TIME=0.010931
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #9
+SPMV_TIME=0.010912
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.012006
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #0
+SPMV_TIME=0.007614
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #1
+SPMV_TIME=0.008497
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #2
+SPMV_TIME=0.008564
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #3
+SPMV_TIME=0.008890
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #4
+SPMV_TIME=0.008858
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #5
+SPMV_TIME=0.008847
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #6
+SPMV_TIME=0.008593
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #7
+SPMV_TIME=0.008124
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #8
+SPMV_TIME=0.007943
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #9
+SPMV_TIME=0.008445
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.015549
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #0
+SPMV_TIME=0.008235
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #1
+SPMV_TIME=0.007860
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #2
+SPMV_TIME=0.006896
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #3
+SPMV_TIME=0.006090
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #4
+SPMV_TIME=0.007735
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #5
+SPMV_TIME=0.006075
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #6
+SPMV_TIME=0.006566
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #7
+SPMV_TIME=0.007056
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #8
+SPMV_TIME=0.006842
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #9
+SPMV_TIME=0.006168
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.020365
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #0
+SPMV_TIME=0.007479
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #1
+SPMV_TIME=0.007703
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #2
+SPMV_TIME=0.007491
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #3
+SPMV_TIME=0.007581
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #4
+SPMV_TIME=0.005840
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #5
+SPMV_TIME=0.007752
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #6
+SPMV_TIME=0.006490
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #7
+SPMV_TIME=0.007722
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #8
+SPMV_TIME=0.007065
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #9
+SPMV_TIME=0.006572
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.026115
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #0
+SPMV_TIME=0.025985
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #1
+SPMV_TIME=0.026996
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #2
+SPMV_TIME=0.025999
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #3
+SPMV_TIME=0.026056
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #4
+SPMV_TIME=0.025940
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #5
+SPMV_TIME=0.026000
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #6
+SPMV_TIME=0.025997
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #7
+SPMV_TIME=0.025997
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #8
+SPMV_TIME=0.006092
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #9
+SPMV_TIME=0.006713
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.021200
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #0
+SPMV_TIME=0.008102
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #1
+SPMV_TIME=0.007367
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #2
+SPMV_TIME=0.006043
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #3
+SPMV_TIME=0.006514
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #4
+SPMV_TIME=0.006971
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #5
+SPMV_TIME=0.008122
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #6
+SPMV_TIME=0.006196
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #7
+SPMV_TIME=0.007144
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #8
+SPMV_TIME=0.006735
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #9
+SPMV_TIME=0.006132
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.021123
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #0
+SPMV_TIME=0.020176
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #1
+SPMV_TIME=0.020179
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #2
+SPMV_TIME=0.020120
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #3
+SPMV_TIME=0.020136
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #4
+SPMV_TIME=0.020144
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #5
+SPMV_TIME=0.020249
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #6
+SPMV_TIME=0.020289
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #7
+SPMV_TIME=0.020264
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #8
+SPMV_TIME=0.020190
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #9
+SPMV_TIME=0.020258
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.014739
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #0
+SPMV_TIME=0.010036
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #1
+SPMV_TIME=0.010023
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #2
+SPMV_TIME=0.010009
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #3
+SPMV_TIME=0.009994
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #4
+SPMV_TIME=0.009991
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #5
+SPMV_TIME=0.010039
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #6
+SPMV_TIME=0.009998
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #7
+SPMV_TIME=0.010015
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #8
+SPMV_TIME=0.010017
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #9
+SPMV_TIME=0.010031
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.009112
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #0
+SPMV_TIME=0.008131
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #1
+SPMV_TIME=0.007573
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #2
+SPMV_TIME=0.006275
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #3
+SPMV_TIME=0.005943
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #4
+SPMV_TIME=0.007109
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #5
+SPMV_TIME=0.006695
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #6
+SPMV_TIME=0.006215
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #7
+SPMV_TIME=0.006898
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #8
+SPMV_TIME=0.007577
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #9
+SPMV_TIME=0.007955
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.025609
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #0
+SPMV_TIME=0.018031
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #1
+SPMV_TIME=0.007178
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #2
+SPMV_TIME=0.007212
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #3
+SPMV_TIME=0.006648
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #4
+SPMV_TIME=0.006173
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #5
+SPMV_TIME=0.006047
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #6
+SPMV_TIME=0.006155
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #7
+SPMV_TIME=0.005603
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #8
+SPMV_TIME=0.005956
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #9
+SPMV_TIME=0.005694
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.008037
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #0
+SPMV_TIME=0.006569
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #1
+SPMV_TIME=0.006431
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #2
+SPMV_TIME=0.005715
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #3
+SPMV_TIME=0.005199
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #4
+SPMV_TIME=0.004824
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #5
+SPMV_TIME=0.005851
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #6
+SPMV_TIME=0.005051
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #7
+SPMV_TIME=0.005103
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #8
+SPMV_TIME=0.005170
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #9
+SPMV_TIME=0.005702
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.027886
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #0
+SPMV_TIME=0.037274
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #1
+SPMV_TIME=0.017546
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #2
+SPMV_TIME=0.007835
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #3
+SPMV_TIME=0.006926
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #4
+SPMV_TIME=0.006671
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #5
+SPMV_TIME=0.005305
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #6
+SPMV_TIME=0.004861
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #7
+SPMV_TIME=0.005486
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #8
+SPMV_TIME=0.005132
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #9
+SPMV_TIME=0.005280
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.016786
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #0
+SPMV_TIME=0.072133
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #1
+SPMV_TIME=0.052364
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #2
+SPMV_TIME=0.046805
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #3
+SPMV_TIME=0.022076
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #4
+SPMV_TIME=0.018573
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #5
+SPMV_TIME=0.010816
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #6
+SPMV_TIME=0.007623
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #7
+SPMV_TIME=0.005159
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #8
+SPMV_TIME=0.004934
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #9
+SPMV_TIME=0.006470
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.021125
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #0
+SPMV_TIME=0.020214
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #1
+SPMV_TIME=0.020262
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #2
+SPMV_TIME=0.020236
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #3
+SPMV_TIME=0.020176
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #4
+SPMV_TIME=0.020181
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #5
+SPMV_TIME=0.020130
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #6
+SPMV_TIME=0.020232
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #7
+SPMV_TIME=0.020142
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #8
+SPMV_TIME=0.020165
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #9
+SPMV_TIME=0.020222
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.010752
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #0
+SPMV_TIME=0.010123
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #1
+SPMV_TIME=0.010117
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #2
+SPMV_TIME=0.010143
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #3
+SPMV_TIME=0.010118
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #4
+SPMV_TIME=0.010133
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #5
+SPMV_TIME=0.010118
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #6
+SPMV_TIME=0.010146
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #7
+SPMV_TIME=0.010135
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #8
+SPMV_TIME=0.010100
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #9
+SPMV_TIME=0.010133
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.009657
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #0
+SPMV_TIME=0.008193
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #1
+SPMV_TIME=0.009150
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #2
+SPMV_TIME=0.007573
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #3
+SPMV_TIME=0.007913
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #4
+SPMV_TIME=0.007387
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #5
+SPMV_TIME=0.007839
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #6
+SPMV_TIME=0.007531
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #7
+SPMV_TIME=0.006476
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #8
+SPMV_TIME=0.007145
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #9
+SPMV_TIME=0.007358
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.011034
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #0
+SPMV_TIME=0.008196
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #1
+SPMV_TIME=0.007030
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #2
+SPMV_TIME=0.006661
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #3
+SPMV_TIME=0.006674
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #4
+SPMV_TIME=0.006423
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #5
+SPMV_TIME=0.006569
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #6
+SPMV_TIME=0.006952
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #7
+SPMV_TIME=0.006942
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #8
+SPMV_TIME=0.006318
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #9
+SPMV_TIME=0.006651
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.008729
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #0
+SPMV_TIME=0.007348
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #1
+SPMV_TIME=0.006603
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #2
+SPMV_TIME=0.006114
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #3
+SPMV_TIME=0.005548
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #4
+SPMV_TIME=0.005496
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #5
+SPMV_TIME=0.005573
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #6
+SPMV_TIME=0.006257
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #7
+SPMV_TIME=0.005641
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #8
+SPMV_TIME=0.005467
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #9
+SPMV_TIME=0.005013
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.010339
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #0
+SPMV_TIME=0.013314
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #1
+SPMV_TIME=0.007793
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #2
+SPMV_TIME=0.005742
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #3
+SPMV_TIME=0.005339
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #4
+SPMV_TIME=0.005137
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #5
+SPMV_TIME=0.005109
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #6
+SPMV_TIME=0.005258
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #7
+SPMV_TIME=0.004959
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #8
+SPMV_TIME=0.004947
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #9
+SPMV_TIME=0.005108
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.026408
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #0
+SPMV_TIME=0.078000
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #1
+SPMV_TIME=0.090976
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #2
+SPMV_TIME=0.057836
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #3
+SPMV_TIME=0.046173
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #4
+SPMV_TIME=0.039002
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #5
+SPMV_TIME=0.030049
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #6
+SPMV_TIME=0.025915
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #7
+SPMV_TIME=0.026006
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #8
+SPMV_TIME=0.025998
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #9
+SPMV_TIME=0.025992
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.021086
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #0
+SPMV_TIME=0.020206
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #1
+SPMV_TIME=0.020159
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #2
+SPMV_TIME=0.020182
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #3
+SPMV_TIME=0.020147
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #4
+SPMV_TIME=0.020184
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #5
+SPMV_TIME=0.020174
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #6
+SPMV_TIME=0.020166
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #7
+SPMV_TIME=0.020113
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #8
+SPMV_TIME=0.020081
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #9
+SPMV_TIME=0.020133
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.013777
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #0
+SPMV_TIME=0.010169
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #1
+SPMV_TIME=0.010227
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #2
+SPMV_TIME=0.010200
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #3
+SPMV_TIME=0.010219
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #4
+SPMV_TIME=0.010226
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #5
+SPMV_TIME=0.010210
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #6
+SPMV_TIME=0.010198
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #7
+SPMV_TIME=0.010180
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #8
+SPMV_TIME=0.010194
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #9
+SPMV_TIME=0.010188
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.013216
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #0
+SPMV_TIME=0.007084
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #1
+SPMV_TIME=0.006853
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #2
+SPMV_TIME=0.005854
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #3
+SPMV_TIME=0.007031
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #4
+SPMV_TIME=0.007268
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #5
+SPMV_TIME=0.007054
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #6
+SPMV_TIME=0.006055
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #7
+SPMV_TIME=0.006533
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #8
+SPMV_TIME=0.006378
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #9
+SPMV_TIME=0.005940
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.025452
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #0
+SPMV_TIME=0.019889
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #1
+SPMV_TIME=0.006699
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #2
+SPMV_TIME=0.004948
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #3
+SPMV_TIME=0.006379
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #4
+SPMV_TIME=0.005190
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #5
+SPMV_TIME=0.006267
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #6
+SPMV_TIME=0.005696
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #7
+SPMV_TIME=0.004862
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #8
+SPMV_TIME=0.005373
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #9
+SPMV_TIME=0.006197
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.025721
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #0
+SPMV_TIME=0.020410
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #1
+SPMV_TIME=0.006086
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #2
+SPMV_TIME=0.006165
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #3
+SPMV_TIME=0.006404
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #4
+SPMV_TIME=0.005786
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #5
+SPMV_TIME=0.005663
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #6
+SPMV_TIME=0.005742
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #7
+SPMV_TIME=0.005272
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #8
+SPMV_TIME=0.005438
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #9
+SPMV_TIME=0.005340
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.021918
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #0
+SPMV_TIME=0.014171
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #1
+SPMV_TIME=0.008338
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #2
+SPMV_TIME=0.006008
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #3
+SPMV_TIME=0.005416
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #4
+SPMV_TIME=0.004999
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #5
+SPMV_TIME=0.005230
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #6
+SPMV_TIME=0.005240
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #7
+SPMV_TIME=0.005206
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #8
+SPMV_TIME=0.005318
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #9
+SPMV_TIME=0.005149
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.055023
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #0
+SPMV_TIME=0.079000
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #1
+SPMV_TIME=0.074000
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #2
+SPMV_TIME=0.064044
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #3
+SPMV_TIME=0.062374
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #4
+SPMV_TIME=0.020542
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #5
+SPMV_TIME=0.037995
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #6
+SPMV_TIME=0.047992
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #7
+SPMV_TIME=0.031961
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #8
+SPMV_TIME=0.031040
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #9
+SPMV_TIME=0.040986
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.020803
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #0
+SPMV_TIME=0.020030
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #1
+SPMV_TIME=0.020079
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #2
+SPMV_TIME=0.020004
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #3
+SPMV_TIME=0.020011
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #4
+SPMV_TIME=0.020019
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #5
+SPMV_TIME=0.019988
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #6
+SPMV_TIME=0.019923
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #7
+SPMV_TIME=0.019931
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #8
+SPMV_TIME=0.019910
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #9
+SPMV_TIME=0.019819
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.011852
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #0
+SPMV_TIME=0.013192
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #1
+SPMV_TIME=0.013547
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #2
+SPMV_TIME=0.013422
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #3
+SPMV_TIME=0.013326
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #4
+SPMV_TIME=0.013242
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #5
+SPMV_TIME=0.013600
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #6
+SPMV_TIME=0.013615
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #7
+SPMV_TIME=0.013401
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #8
+SPMV_TIME=0.013337
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #9
+SPMV_TIME=0.013293
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.010990
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #0
+SPMV_TIME=0.007465
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #1
+SPMV_TIME=0.005759
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #2
+SPMV_TIME=0.007166
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #3
+SPMV_TIME=0.007314
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #4
+SPMV_TIME=0.006244
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #5
+SPMV_TIME=0.006994
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #6
+SPMV_TIME=0.006988
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #7
+SPMV_TIME=0.005701
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #8
+SPMV_TIME=0.005563
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #9
+SPMV_TIME=0.006755
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.018030
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #0
+SPMV_TIME=0.007113
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #1
+SPMV_TIME=0.006679
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #2
+SPMV_TIME=0.007077
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #3
+SPMV_TIME=0.006973
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #4
+SPMV_TIME=0.006182
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #5
+SPMV_TIME=0.005423
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #6
+SPMV_TIME=0.005834
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #7
+SPMV_TIME=0.005940
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #8
+SPMV_TIME=0.006358
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #9
+SPMV_TIME=0.005433
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.020922
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #0
+SPMV_TIME=0.006947
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #1
+SPMV_TIME=0.005950
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #2
+SPMV_TIME=0.006476
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #3
+SPMV_TIME=0.006786
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #4
+SPMV_TIME=0.006703
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #5
+SPMV_TIME=0.005547
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #6
+SPMV_TIME=0.005527
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #7
+SPMV_TIME=0.006178
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #8
+SPMV_TIME=0.006106
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #9
+SPMV_TIME=0.005755
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.030659
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #0
+SPMV_TIME=0.021147
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #1
+SPMV_TIME=0.012696
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #2
+SPMV_TIME=0.005369
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #3
+SPMV_TIME=0.004591
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #4
+SPMV_TIME=0.005319
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #5
+SPMV_TIME=0.005041
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #6
+SPMV_TIME=0.005038
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #7
+SPMV_TIME=0.005270
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #8
+SPMV_TIME=0.004809
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #9
+SPMV_TIME=0.004995
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.026581
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #0
+SPMV_TIME=0.065210
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #1
+SPMV_TIME=0.054116
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #2
+SPMV_TIME=0.040730
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #3
+SPMV_TIME=0.043787
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #4
+SPMV_TIME=0.025120
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #5
+SPMV_TIME=0.025997
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #6
+SPMV_TIME=0.025996
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #7
+SPMV_TIME=0.025996
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #8
+SPMV_TIME=0.026004
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #9
+SPMV_TIME=0.025996
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.021088
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #0
+SPMV_TIME=0.020179
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #1
+SPMV_TIME=0.020133
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #2
+SPMV_TIME=0.020112
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #3
+SPMV_TIME=0.020085
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #4
+SPMV_TIME=0.020108
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #5
+SPMV_TIME=0.020057
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #6
+SPMV_TIME=0.020153
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #7
+SPMV_TIME=0.020201
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #8
+SPMV_TIME=0.020118
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #9
+SPMV_TIME=0.020101
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.013114
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #0
+SPMV_TIME=0.014231
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #1
+SPMV_TIME=0.013644
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #2
+SPMV_TIME=0.013667
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #3
+SPMV_TIME=0.013610
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #4
+SPMV_TIME=0.013479
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #5
+SPMV_TIME=0.013357
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #6
+SPMV_TIME=0.013305
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #7
+SPMV_TIME=0.013262
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #8
+SPMV_TIME=0.013193
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #9
+SPMV_TIME=0.011883
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.012753
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #0
+SPMV_TIME=0.010853
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #1
+SPMV_TIME=0.009407
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #2
+SPMV_TIME=0.008575
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #3
+SPMV_TIME=0.008190
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #4
+SPMV_TIME=0.008402
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #5
+SPMV_TIME=0.009582
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #6
+SPMV_TIME=0.008192
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #7
+SPMV_TIME=0.009672
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #8
+SPMV_TIME=0.008986
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #9
+SPMV_TIME=0.008755
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.009392
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #0
+SPMV_TIME=0.007092
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #1
+SPMV_TIME=0.007885
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #2
+SPMV_TIME=0.006196
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #3
+SPMV_TIME=0.006317
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #4
+SPMV_TIME=0.007321
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #5
+SPMV_TIME=0.007468
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #6
+SPMV_TIME=0.007454
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #7
+SPMV_TIME=0.006607
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #8
+SPMV_TIME=0.006255
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #9
+SPMV_TIME=0.007564
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.009263
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #0
+SPMV_TIME=0.008400
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #1
+SPMV_TIME=0.006603
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #2
+SPMV_TIME=0.006231
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #3
+SPMV_TIME=0.006267
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #4
+SPMV_TIME=0.006801
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #5
+SPMV_TIME=0.007443
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #6
+SPMV_TIME=0.006004
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #7
+SPMV_TIME=0.006864
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #8
+SPMV_TIME=0.006560
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #9
+SPMV_TIME=0.006721
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.032482
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #0
+SPMV_TIME=0.025841
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #1
+SPMV_TIME=0.019994
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #2
+SPMV_TIME=0.026003
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #3
+SPMV_TIME=0.025992
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #4
+SPMV_TIME=0.011309
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #5
+SPMV_TIME=0.006402
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #6
+SPMV_TIME=0.007457
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #7
+SPMV_TIME=0.006128
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #8
+SPMV_TIME=0.005869
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #9
+SPMV_TIME=0.005299
+
+
+=== MATRIX: nd24k.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.083300
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #0
+SPMV_TIME=0.023242
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #1
+SPMV_TIME=0.026004
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #2
+SPMV_TIME=0.025999
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #3
+SPMV_TIME=0.025996
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #4
+SPMV_TIME=0.026002
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #5
+SPMV_TIME=0.025996
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #6
+SPMV_TIME=0.025993
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #7
+SPMV_TIME=0.025995
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #8
+SPMV_TIME=0.025998
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #9
+SPMV_TIME=0.026003
+

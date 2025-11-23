@@ -1,0 +1,92 @@
+
+=== MATRIX: crankseg_1.mtx ===
+
+Sequential WARM UP RUN
+WARMUP_TIME=0.007264
+
+
+Sequential run #0
+SPMV_TIME=0.006944
+
+
+Sequential run #1
+SPMV_TIME=0.006946
+
+
+Sequential run #2
+SPMV_TIME=0.006946
+
+
+Sequential run #3
+SPMV_TIME=0.006937
+
+
+Sequential run #4
+SPMV_TIME=0.006947
+
+
+Sequential run #5
+SPMV_TIME=0.006958
+
+
+Sequential run #6
+SPMV_TIME=0.006935
+
+
+Sequential run #7
+SPMV_TIME=0.006922
+
+
+Sequential run #8
+SPMV_TIME=0.006927
+
+
+Sequential run #9
+SPMV_TIME=0.006923
+
+
+=== MATRIX: crankseg_1.mtx ===
+
+Sequential WARM UP RUN
+WARMUP_TIME=0.034621
+
+
+Sequential run #0
+SPMV_TIME=0.086727
+
+
+Sequential run #1
+SPMV_TIME=0.061595
+
+
+Sequential run #2
+SPMV_TIME=0.066909
+
+
+Sequential run #3
+SPMV_TIME=0.086907
+
+
+Sequential run #4
+SPMV_TIME=0.061765
+
+
+Sequential run #5
+SPMV_TIME=0.086761
+
+
+Sequential run #6
+SPMV_TIME=0.061682
+
+
+Sequential run #7
+SPMV_TIME=0.062078
+
+
+Sequential run #8
+SPMV_TIME=0.086758
+
+
+Sequential run #9
+SPMV_TIME=0.061592
+

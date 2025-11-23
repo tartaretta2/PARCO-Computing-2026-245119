@@ -1,0 +1,356 @@
+#!/bin/bash
+#PBS -N SpMV_code
+#PBS -o ../results/SpMV_code.out
+#PBS -e ../results/SpMV_code.err
+#PBS -q short_cpuQ
+#PBS -l walltime=06:00:00
+#PBS -l select=1:ncpus=64:mem=32gb
+
+module load gcc91
+
+BASE_DIR="/home/leonardo.tartini/PARCO-Computing-2026-245119"
+
+###############################################
+# PBS/NODE INFORMATION
+###############################################
+echo "=========================================="
+echo "PBS JOB INFORMATION"
+echo "=========================================="
+echo "[PBS] Job ID:           ${PBS_JOBID:-N/A}"
+echo "[PBS] Job Name:         ${PBS_JOBNAME:-N/A}"
+echo "[PBS] Queue:            ${PBS_QUEUE:-N/A}"
+echo "[PBS] Execution Host:   ${PBS_O_HOST:-N/A}"
+echo "[PBS] Submit Host:      ${PBS_SERVER:-N/A}"
+echo "[PBS] Working Dir:      ${PBS_O_WORKDIR:-N/A}"
+
+if [[ -f "$PBS_NODEFILE" ]]; then
+    echo "[PBS] Node List:        $(cat $PBS_NODEFILE | sort -u | tr '\n' ' ')"
+    echo "[PBS] Number of Nodes:  $(cat $PBS_NODEFILE | sort -u | wc -l)"
+    echo "[PBS] Total CPUs:       $(cat $PBS_NODEFILE | wc -l)"
+else
+    echo "[PBS] Node File:        Not available"
+fi
+
+echo ""
+echo "=========================================="
+echo "NODE INFORMATION"
+echo "=========================================="
+echo "[NODE] Hostname:        $(hostname)"
+echo "[NODE] Architecture:    $(uname -m)"
+echo "[NODE] Kernel:          $(uname -r)"
+echo "[NODE] OS:              $(uname -o)"
+
+if command -v lscpu &> /dev/null; then
+    echo "[NODE] CPU Model:       $(lscpu | grep "Model name" | cut -d: -f2 | xargs)"
+    echo "[NODE] CPU Cores:       $(lscpu | grep "^CPU(s):" | cut -d: -f2 | xargs)"
+    echo "[NODE] Threads/Core:    $(lscpu | grep "Thread(s) per core" | cut -d: -f2 | xargs)"
+    echo "[NODE] Sockets:         $(lscpu | grep "Socket(s)" | cut -d: -f2 | xargs)"
+    echo "[NODE] NUMA Nodes:      $(lscpu | grep "NUMA node(s)" | cut -d: -f2 | xargs)"
+    echo "[NODE] L1d Cache:       $(lscpu | grep "L1d cache" | cut -d: -f2 | xargs)"
+    echo "[NODE] L1i Cache:       $(lscpu | grep "L1i cache" | cut -d: -f2 | xargs)"
+    echo "[NODE] L2 Cache:        $(lscpu | grep "L2 cache" | cut -d: -f2 | xargs)"
+    echo "[NODE] L3 Cache:        $(lscpu | grep "L3 cache" | cut -d: -f2 | xargs)"
+fi
+
+if command -v free &> /dev/null; then
+    echo "[NODE] Total Memory:    $(free -h | grep Mem | awk '{print $2}')"
+    echo "[NODE] Available Mem:   $(free -h | grep Mem | awk '{print $7}')"
+fi
+
+echo "[NODE] Load Average:    $(uptime | awk -F'load average:' '{print $2}')"
+echo "[NODE] Date/Time:       $(date)"
+echo "=========================================="
+echo ""
+
+if [ -n "$PBS_O_WORKDIR" ]; then
+    cd "$PBS_O_WORKDIR" || { echo "ERROR: cannot cd into PBS_O_WORKDIR"; exit 1; }
+fi
+
+set -euo pipefail
+
+# CONFIGURATION
+WORKDIR="$PBS_O_WORKDIR"
+BASE_DIR=".."                           # Directory principale del progetto
+SOURCE_DIR="${BASE_DIR}/src"            # Sorgenti C
+OUTDIR="${BASE_DIR}/results"            # Cartella risultati
+MATRIX_DIR="${BASE_DIR}/data_matrices"  # Matrici
+
+echo "[INFO] Base dir:    $BASE_DIR"
+echo "[INFO] Source dir:  $SOURCE_DIR"
+echo "[INFO] Matrices:    $MATRIX_DIR"
+echo "[INFO] Results dir: $OUTDIR"
+echo "[INFO] Current dir: $(pwd)"
+
+SEQ_BIN="seq_program"
+PAR_BIN="par_program"
+
+SOURCE_FILES=$(find "$SOURCE_DIR" -maxdepth 1 -name "*.c")
+
+echo -e "[INFO] Compiling sources:\n\t$SOURCE_FILES"
+
+MATRIX_FILES=("$MATRIX_DIR"/*.mtx)
+
+RUN_TYPES_PAR=("static" "dynamic" "guided")
+CHUNK_SIZES=(1 10 100 1000 10000) 
+NUM_THREADS=(1 2 4 8 16 32 64)
+
+CODE_REPEATS=10
+
+CC=${CC:-gcc}
+
+LOGDIR="$OUTDIR/code_logs"
+BINDIR="$OUTDIR/bin"
+
+# Crea le directory se non esistono
+mkdir -p "$LOGDIR" "$BINDIR"
+
+# Pulisci binari vecchi
+echo "[INFO] Cleaning old binaries..."
+rm -f "${BINDIR}/${SEQ_BIN}" "${BINDIR}/${PAR_BIN}"
+
+CSV="$OUTDIR/code_summary.csv"
+echo "run_type,mode,matrix,schedule,chunk,threads,metric,value,log_file" > "$CSV"
+
+run_code() {
+  local cmd=("$@")
+  "${cmd[@]}"
+}
+
+###############################################
+# COMPILE CODES
+###############################################
+echo "[INFO] Compiler info:"
+which $CC
+$CC --version
+
+echo ""
+echo "Sequential compilation (-O3)"
+$CC -g -Wall -O3 -std=c11 -o "${BINDIR}/${SEQ_BIN}" $SOURCE_FILES || {
+    echo "ERROR: Sequential compilation failed"
+    exit 1
+}
+
+# Verifica che il binario sia eseguibile
+if [[ ! -x "${BINDIR}/${SEQ_BIN}" ]]; then
+    echo "ERROR: Sequential binary is not executable"
+    ls -la "${BINDIR}/${SEQ_BIN}"
+    file "${BINDIR}/${SEQ_BIN}"
+    exit 1
+fi
+
+echo "Parallel compilation (-O3 + OpenMP)"
+$CC -g -Wall -O3 -fopenmp -std=c11 -o "${BINDIR}/${PAR_BIN}" $SOURCE_FILES || {
+    echo "ERROR: Parallel compilation failed"
+    exit 1
+}
+
+# Verifica che il binario sia eseguibile
+if [[ ! -x "${BINDIR}/${PAR_BIN}" ]]; then
+    echo "ERROR: Parallel binary is not executable"
+    ls -la "${BINDIR}/${PAR_BIN}"
+    file "${BINDIR}/${PAR_BIN}"
+    exit 1
+fi
+
+echo "[INFO] Compilation successful"
+echo "[INFO] Sequential binary: $(file "${BINDIR}/${SEQ_BIN}")"
+echo "[INFO] Parallel binary: $(file "${BINDIR}/${PAR_BIN}")"
+ls -lh "${BINDIR}/"
+
+###############################################
+# RUN CODES
+###############################################
+for MATRIX in "${MATRIX_FILES[@]}"; do
+    FILENAME=$(basename "$MATRIX")
+    MATRIX_NAME="${FILENAME%.mtx}"
+    
+    TEMP_CSV="${CSV}_${MATRIX_NAME}.tmp"
+    > "$TEMP_CSV"
+    
+    echo -e "\n\n\n### USING MATRIX: $FILENAME ###\n"
+    
+    ###############################################
+    # SEQUENTIAL RUNS
+    ###############################################
+    echo -e "\n=== SEQUENTIAL RUNS ===\n"
+    
+    logf="${LOGDIR}/seq_runs_${MATRIX_NAME}.log"
+    stamp=$(date +"%Y%m%d_%H%M%S")
+
+    tmp_out="${logf}_${stamp}.tmp"
+    
+    set +e
+    rc=0
+    run_code "${BINDIR}/${SEQ_BIN}" "$MATRIX" "$CODE_REPEATS" > "$tmp_out" 2>&1 || rc=$?
+    rc=$?
+    set -e
+
+    if [[ $rc -ne 0 ]]; then
+        echo "[ERROR] Sequential run failed with code $rc for $MATRIX_NAME"
+        echo "[ERROR] Check log: $tmp_out"
+        cat "$tmp_out"
+        cat "$tmp_out" >> "$logf"
+        rm -f "$tmp_out"
+        continue
+    fi
+    
+    cat "$tmp_out" >> "$logf"
+    
+    times=($(grep -Eo 'SPMV_TIME=[0-9.]+' "$tmp_out" | tr -d '\r' | cut -d= -f2))
+    
+    echo "[DEBUG] Sequential - Found ${#times[@]} times"
+    
+    if [[ ${#times[@]} -eq 0 ]]; then
+        echo "[WARNING] No times found for sequential $MATRIX_NAME"
+        echo "[WARNING] First 20 lines of output:"
+        head -20 "$tmp_out"
+    else
+        for idx in "${!times[@]}"; do
+            echo "sequential,code,${MATRIX_NAME},-,-,-,time,${times[$idx]},seq_runs_${MATRIX_NAME}.log" >> "$TEMP_CSV"
+        done
+    fi
+    
+    rm -f "$tmp_out"
+
+    ###############################################
+    # PARALLEL RUNS
+    ###############################################
+    echo -e "\n=== PARALLEL RUNS ===\n"
+
+    logf="${LOGDIR}/par_runs_${MATRIX_NAME}.log"
+    
+    for schedule in "${RUN_TYPES_PAR[@]}"; do
+        echo -e "\n--- ${schedule} scheduling ---\n"
+        for chunk in "${CHUNK_SIZES[@]}"; do
+            for th in "${NUM_THREADS[@]}"; do
+                stamp=$(date +"%Y%m%d_%H%M%S")
+
+                tmp_out="${logf}_s${schedule}_c${chunk}_t${th}_${stamp}.tmp"
+                
+                rc=0
+                set +e
+                run_code "${BINDIR}/${PAR_BIN}" "$MATRIX" "${CODE_REPEATS}" "$schedule" "$chunk" "$th" > "$tmp_out" 2>&1 || rc=$?
+                rc=$?
+                set -e
+
+                if [[ $rc -ne 0 ]]; then
+                    echo "[ERROR] Failed with code $rc for $MATRIX_NAME [$schedule,$chunk,$th]"
+                    echo "[ERROR] First 20 lines of output:"
+                    head -20 "$tmp_out"
+                    cat "$tmp_out" >> "$logf"
+                    rm -f "$tmp_out"
+                    continue
+                fi
+                
+                cat "$tmp_out" >> "$logf"
+                
+                times=($(grep -Eo 'SPMV_TIME=[0-9.]+' "$tmp_out" | tr -d '\r' | cut -d= -f2))
+                
+                echo "[DEBUG] Parallel [$schedule,$chunk,$th] - Found ${#times[@]} times"
+                
+                if [[ ${#times[@]} -eq 0 ]]; then
+                    echo "[WARNING] No times found for parallel $MATRIX_NAME [$schedule,$chunk,$th]"
+                    echo "[WARNING] First 20 lines of output:"
+                    head -20 "$tmp_out"
+                else
+                    for idx in "${!times[@]}"; do
+                        echo "parallel,code,${MATRIX_NAME},${schedule},${chunk},${th},time,${times[$idx]},par_runs_${MATRIX_NAME}.log" >> "$TEMP_CSV"
+                    done
+                fi
+                
+                rm -f "$tmp_out"
+            done
+        done
+    done
+    
+    echo "[INFO] Merging results for $MATRIX_NAME into summary CSV"
+    cat "$TEMP_CSV" >> "$CSV"
+    rm -f "$TEMP_CSV"    
+done
+
+echo -e "\n=== Runs completed ===\n"
+echo "Results saved to $CSV"
+echo "Logs: $LOGDIR"
+
+# Mostra statistiche finali
+echo -e "\n=== Final Statistics ==="
+echo "Total lines in CSV: $(wc -l < "$CSV")"
+echo "Sequential runs: $(grep -c "^sequential" "$CSV" || echo 0)"
+echo "Parallel runs: $(grep -c "^parallel" "$CSV" || echo 0)"
+
+###############################################
+# RUN PYTHON ANALYSIS
+###############################################
+echo -e "\n=========================================="
+echo "RUNNING PYTHON ANALYSIS"
+echo "=========================================="
+
+# Carica Python compilato con gcc91 (stesso del tuo codice)
+module load python-3.10.14_gcc91
+
+if ! command -v python3 &> /dev/null; then
+    echo "[ERROR] Python3 not found. Skipping analysis."
+else
+    echo "[INFO] Python version: $(python3 --version)"
+    echo "[INFO] Python path: $(which python3)"
+    
+    # Crea virtual environment
+    VENV_DIR="$BASE_DIR/.venv"
+    if [[ ! -d "$VENV_DIR" ]]; then
+        echo "[INFO] Creating virtual environment..."
+        python3 -m venv "$VENV_DIR" || {
+            echo "[WARNING] Could not create venv, trying pip install --user..."
+            VENV_DIR=""
+        }
+    fi
+    
+    # Attiva venv se esiste
+    if [[ -n "$VENV_DIR" && -d "$VENV_DIR" ]]; then
+        echo "[INFO] Activating virtual environment..."
+        source "$VENV_DIR/bin/activate"
+    fi
+    
+    # Installa dipendenze
+    echo "[INFO] Installing Python packages..."
+    pip install --quiet --upgrade pip 2>/dev/null || true
+    pip install --quiet pandas matplotlib numpy 2>/dev/null || {
+        echo "[WARNING] pip install failed, trying with --user flag..."
+        pip install --user --quiet pandas matplotlib numpy 2>/dev/null || true
+    }
+    
+    # Verifica installazione
+    echo "[INFO] Checking packages..."
+    python3 -c "import pandas; print(f'pandas {pandas.__version__}')" 2>/dev/null || echo "[WARNING] pandas not found"
+    python3 -c "import matplotlib; print(f'matplotlib {matplotlib.__version__}')" 2>/dev/null || echo "[WARNING] matplotlib not found"
+    python3 -c "import numpy; print(f'numpy {numpy.__version__}')" 2>/dev/null || echo "[WARNING] numpy not found"
+    
+    # Esegui script di analisi
+    ANALYSIS_SCRIPT="$BASE_DIR/scripts/code_analysis.py"
+    
+    if [[ -f "$ANALYSIS_SCRIPT" ]]; then
+        echo "[INFO] Running analysis script..."
+        python3 "$ANALYSIS_SCRIPT"
+        
+        if [[ $? -eq 0 ]]; then
+            echo "[INFO] Plots saved in: $OUTDIR/code_plots/"
+            
+            # Lista i file generati
+            if [[ -d "$OUTDIR/code_plots" ]]; then
+                echo "[INFO] Generated files:"
+                ls -lh "$OUTDIR/code_plots/" | grep -E "\.png|\.csv"
+            fi
+        else
+            echo "[ERROR] Analysis script failed!"
+        fi
+    else
+        echo "[ERROR] Analysis script not found: $ANALYSIS_SCRIPT"
+    fi
+    
+    # Deattiva venv
+    if [[ -n "$VENV_DIR" && -d "$VENV_DIR" ]]; then
+        deactivate
+    fi
+fi
+
+echo "=========================================="
+echo "[INFO] Job completed"

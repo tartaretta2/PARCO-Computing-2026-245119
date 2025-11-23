@@ -1,0 +1,46 @@
+
+=== MATRIX: Serena.mtx ===
+
+Sequential WARM UP RUN
+WARMUP_TIME=0.045956
+
+
+Sequential run #0
+SPMV_TIME=0.040474
+
+
+Sequential run #1
+SPMV_TIME=0.040806
+
+
+Sequential run #2
+SPMV_TIME=0.040367
+
+
+Sequential run #3
+SPMV_TIME=0.040465
+
+
+Sequential run #4
+SPMV_TIME=0.040488
+
+
+Sequential run #5
+SPMV_TIME=0.040643
+
+
+Sequential run #6
+SPMV_TIME=0.040552
+
+
+Sequential run #7
+SPMV_TIME=0.040094
+
+
+Sequential run #8
+SPMV_TIME=0.040266
+
+
+Sequential run #9
+SPMV_TIME=0.040375
+

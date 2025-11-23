@@ -1,0 +1,4830 @@
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.049132
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #0
+SPMV_TIME=0.046116
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #1
+SPMV_TIME=0.044732
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #2
+SPMV_TIME=0.042518
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #3
+SPMV_TIME=0.042505
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #4
+SPMV_TIME=0.042594
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #5
+SPMV_TIME=0.042187
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #6
+SPMV_TIME=0.042408
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #7
+SPMV_TIME=0.042634
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #8
+SPMV_TIME=0.042519
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 1 | Run #9
+SPMV_TIME=0.042309
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.066203
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #0
+SPMV_TIME=0.044383
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #1
+SPMV_TIME=0.044343
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #2
+SPMV_TIME=0.044375
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #3
+SPMV_TIME=0.044371
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #4
+SPMV_TIME=0.044342
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #5
+SPMV_TIME=0.044485
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #6
+SPMV_TIME=0.044326
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #7
+SPMV_TIME=0.044371
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #8
+SPMV_TIME=0.044475
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 2 | Run #9
+SPMV_TIME=0.044450
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.057346
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #0
+SPMV_TIME=0.056800
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #1
+SPMV_TIME=0.056603
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #2
+SPMV_TIME=0.056499
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #3
+SPMV_TIME=0.056458
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #4
+SPMV_TIME=0.056561
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #5
+SPMV_TIME=0.056617
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #6
+SPMV_TIME=0.056403
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #7
+SPMV_TIME=0.056692
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #8
+SPMV_TIME=0.056528
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 4 | Run #9
+SPMV_TIME=0.056580
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.035983
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #0
+SPMV_TIME=0.035354
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #1
+SPMV_TIME=0.035217
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #2
+SPMV_TIME=0.035186
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #3
+SPMV_TIME=0.035281
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #4
+SPMV_TIME=0.035199
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #5
+SPMV_TIME=0.035227
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #6
+SPMV_TIME=0.035183
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #7
+SPMV_TIME=0.035234
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #8
+SPMV_TIME=0.035258
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 8 | Run #9
+SPMV_TIME=0.035243
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.058081
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #0
+SPMV_TIME=0.036025
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #1
+SPMV_TIME=0.033690
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #2
+SPMV_TIME=0.032331
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #3
+SPMV_TIME=0.031317
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #4
+SPMV_TIME=0.031118
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #5
+SPMV_TIME=0.030992
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #6
+SPMV_TIME=0.030927
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #7
+SPMV_TIME=0.030851
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #8
+SPMV_TIME=0.030540
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 16 | Run #9
+SPMV_TIME=0.030675
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.107421
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #0
+SPMV_TIME=0.025259
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #1
+SPMV_TIME=0.025066
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #2
+SPMV_TIME=0.024719
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #3
+SPMV_TIME=0.024621
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #4
+SPMV_TIME=0.024618
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #5
+SPMV_TIME=0.024650
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #6
+SPMV_TIME=0.024805
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #7
+SPMV_TIME=0.024921
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #8
+SPMV_TIME=0.024692
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 32 | Run #9
+SPMV_TIME=0.024853
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.234189
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #0
+SPMV_TIME=0.051979
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #1
+SPMV_TIME=0.052000
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #2
+SPMV_TIME=0.052992
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #3
+SPMV_TIME=0.052001
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #4
+SPMV_TIME=0.063986
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #5
+SPMV_TIME=0.066396
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #6
+SPMV_TIME=0.051564
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #7
+SPMV_TIME=0.052582
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #8
+SPMV_TIME=0.052954
+
+
+Schedule = 1 | Chunk size = 1 | Threads = 64 | Run #9
+SPMV_TIME=0.049712
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.049736
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #0
+SPMV_TIME=0.043118
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #1
+SPMV_TIME=0.042781
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #2
+SPMV_TIME=0.042831
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #3
+SPMV_TIME=0.042879
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #4
+SPMV_TIME=0.042835
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #5
+SPMV_TIME=0.042890
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #6
+SPMV_TIME=0.042912
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #7
+SPMV_TIME=0.042812
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #8
+SPMV_TIME=0.042531
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 1 | Run #9
+SPMV_TIME=0.043068
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.035796
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #0
+SPMV_TIME=0.030984
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #1
+SPMV_TIME=0.031092
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #2
+SPMV_TIME=0.031093
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #3
+SPMV_TIME=0.031064
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #4
+SPMV_TIME=0.031004
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #5
+SPMV_TIME=0.031053
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #6
+SPMV_TIME=0.031085
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #7
+SPMV_TIME=0.031110
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #8
+SPMV_TIME=0.031062
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 2 | Run #9
+SPMV_TIME=0.037280
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.050537
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #0
+SPMV_TIME=0.033538
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #1
+SPMV_TIME=0.033069
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #2
+SPMV_TIME=0.032718
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #3
+SPMV_TIME=0.032854
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #4
+SPMV_TIME=0.032765
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #5
+SPMV_TIME=0.032616
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #6
+SPMV_TIME=0.032635
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #7
+SPMV_TIME=0.032632
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #8
+SPMV_TIME=0.032749
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 4 | Run #9
+SPMV_TIME=0.032399
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.038127
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #0
+SPMV_TIME=0.024484
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #1
+SPMV_TIME=0.024247
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #2
+SPMV_TIME=0.024167
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #3
+SPMV_TIME=0.023906
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #4
+SPMV_TIME=0.023876
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #5
+SPMV_TIME=0.023929
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #6
+SPMV_TIME=0.023852
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #7
+SPMV_TIME=0.024022
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #8
+SPMV_TIME=0.024094
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 8 | Run #9
+SPMV_TIME=0.024058
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.053234
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #0
+SPMV_TIME=0.019513
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #1
+SPMV_TIME=0.019342
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #2
+SPMV_TIME=0.019272
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #3
+SPMV_TIME=0.019243
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #4
+SPMV_TIME=0.019255
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #5
+SPMV_TIME=0.019277
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #6
+SPMV_TIME=0.019209
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #7
+SPMV_TIME=0.019248
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #8
+SPMV_TIME=0.019216
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 16 | Run #9
+SPMV_TIME=0.019182
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.115216
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #0
+SPMV_TIME=0.021726
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #1
+SPMV_TIME=0.022289
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #2
+SPMV_TIME=0.022306
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #3
+SPMV_TIME=0.022326
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #4
+SPMV_TIME=0.022317
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #5
+SPMV_TIME=0.022449
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #6
+SPMV_TIME=0.022459
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #7
+SPMV_TIME=0.022402
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #8
+SPMV_TIME=0.022464
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 32 | Run #9
+SPMV_TIME=0.022436
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.117314
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #0
+SPMV_TIME=0.031482
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #1
+SPMV_TIME=0.046489
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #2
+SPMV_TIME=0.031486
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #3
+SPMV_TIME=0.046510
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #4
+SPMV_TIME=0.033316
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #5
+SPMV_TIME=0.044673
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #6
+SPMV_TIME=0.033223
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #7
+SPMV_TIME=0.044771
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #8
+SPMV_TIME=0.033265
+
+
+Schedule = 1 | Chunk size = 10 | Threads = 64 | Run #9
+SPMV_TIME=0.041036
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.049453
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #0
+SPMV_TIME=0.042175
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #1
+SPMV_TIME=0.041986
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #2
+SPMV_TIME=0.042342
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #3
+SPMV_TIME=0.041815
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #4
+SPMV_TIME=0.042067
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #5
+SPMV_TIME=0.041814
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #6
+SPMV_TIME=0.041915
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #7
+SPMV_TIME=0.041748
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #8
+SPMV_TIME=0.041869
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 1 | Run #9
+SPMV_TIME=0.042206
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.029932
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #0
+SPMV_TIME=0.023002
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #1
+SPMV_TIME=0.022957
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #2
+SPMV_TIME=0.022919
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #3
+SPMV_TIME=0.022947
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #4
+SPMV_TIME=0.022983
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #5
+SPMV_TIME=0.023005
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #6
+SPMV_TIME=0.023058
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #7
+SPMV_TIME=0.023154
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #8
+SPMV_TIME=0.022934
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 2 | Run #9
+SPMV_TIME=0.022937
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.039618
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #0
+SPMV_TIME=0.020212
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #1
+SPMV_TIME=0.020469
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #2
+SPMV_TIME=0.020342
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #3
+SPMV_TIME=0.020394
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #4
+SPMV_TIME=0.020334
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #5
+SPMV_TIME=0.020385
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #6
+SPMV_TIME=0.020174
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #7
+SPMV_TIME=0.020407
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #8
+SPMV_TIME=0.020321
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 4 | Run #9
+SPMV_TIME=0.020308
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.022030
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #0
+SPMV_TIME=0.014830
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #1
+SPMV_TIME=0.014615
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #2
+SPMV_TIME=0.014462
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #3
+SPMV_TIME=0.014514
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #4
+SPMV_TIME=0.014444
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #5
+SPMV_TIME=0.014506
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #6
+SPMV_TIME=0.014411
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #7
+SPMV_TIME=0.014460
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #8
+SPMV_TIME=0.014466
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 8 | Run #9
+SPMV_TIME=0.014369
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.035340
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #0
+SPMV_TIME=0.013017
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #1
+SPMV_TIME=0.012717
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #2
+SPMV_TIME=0.012597
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #3
+SPMV_TIME=0.012545
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #4
+SPMV_TIME=0.012600
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #5
+SPMV_TIME=0.012509
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #6
+SPMV_TIME=0.012522
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #7
+SPMV_TIME=0.012498
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #8
+SPMV_TIME=0.012486
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 16 | Run #9
+SPMV_TIME=0.012478
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.037264
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #0
+SPMV_TIME=0.014417
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #1
+SPMV_TIME=0.014258
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #2
+SPMV_TIME=0.013226
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #3
+SPMV_TIME=0.013122
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #4
+SPMV_TIME=0.013215
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #5
+SPMV_TIME=0.013230
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #6
+SPMV_TIME=0.013208
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #7
+SPMV_TIME=0.013303
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #8
+SPMV_TIME=0.012883
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 32 | Run #9
+SPMV_TIME=0.012734
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.040432
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #0
+SPMV_TIME=0.146735
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #1
+SPMV_TIME=0.148299
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #2
+SPMV_TIME=0.083413
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #3
+SPMV_TIME=0.052179
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #4
+SPMV_TIME=0.066625
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #5
+SPMV_TIME=0.121785
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #6
+SPMV_TIME=0.153458
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #7
+SPMV_TIME=0.134699
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #8
+SPMV_TIME=0.140223
+
+
+Schedule = 1 | Chunk size = 100 | Threads = 64 | Run #9
+SPMV_TIME=0.134159
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.049280
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #0
+SPMV_TIME=0.042555
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #1
+SPMV_TIME=0.042275
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #2
+SPMV_TIME=0.042532
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #3
+SPMV_TIME=0.042456
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #4
+SPMV_TIME=0.042468
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #5
+SPMV_TIME=0.042215
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #6
+SPMV_TIME=0.042794
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #7
+SPMV_TIME=0.042317
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #8
+SPMV_TIME=0.042782
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 1 | Run #9
+SPMV_TIME=0.042196
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.030240
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #0
+SPMV_TIME=0.021782
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #1
+SPMV_TIME=0.021854
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #2
+SPMV_TIME=0.021950
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #3
+SPMV_TIME=0.021780
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #4
+SPMV_TIME=0.021838
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #5
+SPMV_TIME=0.021901
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #6
+SPMV_TIME=0.021962
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #7
+SPMV_TIME=0.021845
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #8
+SPMV_TIME=0.021808
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 2 | Run #9
+SPMV_TIME=0.021780
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.024238
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #0
+SPMV_TIME=0.021935
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #1
+SPMV_TIME=0.021841
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #2
+SPMV_TIME=0.021849
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #3
+SPMV_TIME=0.021827
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #4
+SPMV_TIME=0.021786
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #5
+SPMV_TIME=0.021810
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #6
+SPMV_TIME=0.021865
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #7
+SPMV_TIME=0.021798
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #8
+SPMV_TIME=0.021816
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 4 | Run #9
+SPMV_TIME=0.021840
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.034374
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #0
+SPMV_TIME=0.013668
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #1
+SPMV_TIME=0.013510
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #2
+SPMV_TIME=0.013424
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #3
+SPMV_TIME=0.013445
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #4
+SPMV_TIME=0.013481
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #5
+SPMV_TIME=0.013347
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #6
+SPMV_TIME=0.013462
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #7
+SPMV_TIME=0.013447
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #8
+SPMV_TIME=0.013400
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 8 | Run #9
+SPMV_TIME=0.013328
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.025071
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #0
+SPMV_TIME=0.011665
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #1
+SPMV_TIME=0.011389
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #2
+SPMV_TIME=0.011248
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #3
+SPMV_TIME=0.011178
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #4
+SPMV_TIME=0.011155
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #5
+SPMV_TIME=0.011100
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #6
+SPMV_TIME=0.011117
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #7
+SPMV_TIME=0.011054
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #8
+SPMV_TIME=0.011043
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 16 | Run #9
+SPMV_TIME=0.011321
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.034382
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #0
+SPMV_TIME=0.023270
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #1
+SPMV_TIME=0.019822
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #2
+SPMV_TIME=0.024237
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #3
+SPMV_TIME=0.017538
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #4
+SPMV_TIME=0.013992
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #5
+SPMV_TIME=0.014258
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #6
+SPMV_TIME=0.014066
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #7
+SPMV_TIME=0.013875
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #8
+SPMV_TIME=0.014014
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 32 | Run #9
+SPMV_TIME=0.013360
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.051283
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #0
+SPMV_TIME=0.142082
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #1
+SPMV_TIME=0.144832
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #2
+SPMV_TIME=0.159056
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #3
+SPMV_TIME=0.137817
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #4
+SPMV_TIME=0.120270
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #5
+SPMV_TIME=0.128618
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #6
+SPMV_TIME=0.156612
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #7
+SPMV_TIME=0.178249
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #8
+SPMV_TIME=0.156930
+
+
+Schedule = 1 | Chunk size = 1000 | Threads = 64 | Run #9
+SPMV_TIME=0.044888
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.049156
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #0
+SPMV_TIME=0.042455
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #1
+SPMV_TIME=0.042524
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #2
+SPMV_TIME=0.042677
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #3
+SPMV_TIME=0.042468
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #4
+SPMV_TIME=0.042404
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #5
+SPMV_TIME=0.042147
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #6
+SPMV_TIME=0.042393
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #7
+SPMV_TIME=0.042250
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #8
+SPMV_TIME=0.042396
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 1 | Run #9
+SPMV_TIME=0.042550
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.051235
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #0
+SPMV_TIME=0.021951
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #1
+SPMV_TIME=0.021923
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #2
+SPMV_TIME=0.021886
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #3
+SPMV_TIME=0.021919
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #4
+SPMV_TIME=0.021824
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #5
+SPMV_TIME=0.021829
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #6
+SPMV_TIME=0.021823
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #7
+SPMV_TIME=0.021781
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #8
+SPMV_TIME=0.021838
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 2 | Run #9
+SPMV_TIME=0.021809
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.019312
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #0
+SPMV_TIME=0.018706
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #1
+SPMV_TIME=0.018063
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #2
+SPMV_TIME=0.018026
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #3
+SPMV_TIME=0.018007
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #4
+SPMV_TIME=0.017896
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #5
+SPMV_TIME=0.017897
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #6
+SPMV_TIME=0.017751
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #7
+SPMV_TIME=0.017836
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #8
+SPMV_TIME=0.017701
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 4 | Run #9
+SPMV_TIME=0.017838
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.027680
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #0
+SPMV_TIME=0.012841
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #1
+SPMV_TIME=0.012525
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #2
+SPMV_TIME=0.012448
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #3
+SPMV_TIME=0.012298
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #4
+SPMV_TIME=0.012331
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #5
+SPMV_TIME=0.012243
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #6
+SPMV_TIME=0.012169
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #7
+SPMV_TIME=0.012250
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #8
+SPMV_TIME=0.012230
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 8 | Run #9
+SPMV_TIME=0.012187
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.026771
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #0
+SPMV_TIME=0.011294
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #1
+SPMV_TIME=0.010946
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #2
+SPMV_TIME=0.010724
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #3
+SPMV_TIME=0.010670
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #4
+SPMV_TIME=0.010596
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #5
+SPMV_TIME=0.010595
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #6
+SPMV_TIME=0.010592
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #7
+SPMV_TIME=0.010543
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #8
+SPMV_TIME=0.010513
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 16 | Run #9
+SPMV_TIME=0.010554
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.025371
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #0
+SPMV_TIME=0.022994
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #1
+SPMV_TIME=0.023024
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #2
+SPMV_TIME=0.019857
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #3
+SPMV_TIME=0.018919
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #4
+SPMV_TIME=0.017947
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #5
+SPMV_TIME=0.020311
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #6
+SPMV_TIME=0.019563
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #7
+SPMV_TIME=0.017764
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #8
+SPMV_TIME=0.019521
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 32 | Run #9
+SPMV_TIME=0.019310
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.044770
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #0
+SPMV_TIME=0.151734
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #1
+SPMV_TIME=0.148832
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #2
+SPMV_TIME=0.157875
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #3
+SPMV_TIME=0.149743
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #4
+SPMV_TIME=0.094555
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #5
+SPMV_TIME=0.148065
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #6
+SPMV_TIME=0.132715
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #7
+SPMV_TIME=0.145628
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #8
+SPMV_TIME=0.155218
+
+
+Schedule = 1 | Chunk size = 10000 | Threads = 64 | Run #9
+SPMV_TIME=0.038620
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.080357
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #0
+SPMV_TIME=0.073769
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #1
+SPMV_TIME=0.074161
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #2
+SPMV_TIME=0.074002
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #3
+SPMV_TIME=0.073672
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #4
+SPMV_TIME=0.073580
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #5
+SPMV_TIME=0.073487
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #6
+SPMV_TIME=0.073622
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #7
+SPMV_TIME=0.074060
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #8
+SPMV_TIME=0.073904
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 1 | Run #9
+SPMV_TIME=0.073901
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.115129
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #0
+SPMV_TIME=0.099791
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #1
+SPMV_TIME=0.100385
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #2
+SPMV_TIME=0.100584
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #3
+SPMV_TIME=0.100431
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #4
+SPMV_TIME=0.100701
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #5
+SPMV_TIME=0.100342
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #6
+SPMV_TIME=0.099792
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #7
+SPMV_TIME=0.100604
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #8
+SPMV_TIME=0.100571
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 2 | Run #9
+SPMV_TIME=0.100606
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.153552
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #0
+SPMV_TIME=0.140776
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #1
+SPMV_TIME=0.139619
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #2
+SPMV_TIME=0.139381
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #3
+SPMV_TIME=0.139420
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #4
+SPMV_TIME=0.139410
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #5
+SPMV_TIME=0.139399
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #6
+SPMV_TIME=0.137321
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #7
+SPMV_TIME=0.135337
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #8
+SPMV_TIME=0.089183
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 4 | Run #9
+SPMV_TIME=0.086866
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.155377
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #0
+SPMV_TIME=0.141095
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #1
+SPMV_TIME=0.139903
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #2
+SPMV_TIME=0.139929
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #3
+SPMV_TIME=0.139910
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #4
+SPMV_TIME=0.139932
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #5
+SPMV_TIME=0.139838
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #6
+SPMV_TIME=0.136203
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #7
+SPMV_TIME=0.137367
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #8
+SPMV_TIME=0.143720
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 8 | Run #9
+SPMV_TIME=0.173879
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.136698
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #0
+SPMV_TIME=0.123173
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #1
+SPMV_TIME=0.121220
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #2
+SPMV_TIME=0.120818
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #3
+SPMV_TIME=0.120483
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #4
+SPMV_TIME=0.120428
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #5
+SPMV_TIME=0.120522
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #6
+SPMV_TIME=0.120469
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #7
+SPMV_TIME=0.121352
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #8
+SPMV_TIME=0.121457
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 16 | Run #9
+SPMV_TIME=0.124266
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.117393
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #0
+SPMV_TIME=0.107761
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #1
+SPMV_TIME=0.107046
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #2
+SPMV_TIME=0.106688
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #3
+SPMV_TIME=0.106518
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #4
+SPMV_TIME=0.106250
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #5
+SPMV_TIME=0.106150
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #6
+SPMV_TIME=0.106127
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #7
+SPMV_TIME=0.106107
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #8
+SPMV_TIME=0.106108
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 32 | Run #9
+SPMV_TIME=0.107282
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.182665
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #0
+SPMV_TIME=0.116984
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #1
+SPMV_TIME=0.119994
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #2
+SPMV_TIME=0.116995
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #3
+SPMV_TIME=0.123997
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #4
+SPMV_TIME=0.116993
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #5
+SPMV_TIME=0.116998
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #6
+SPMV_TIME=0.115997
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #7
+SPMV_TIME=0.119972
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #8
+SPMV_TIME=0.122993
+
+
+Schedule = 2 | Chunk size = 1 | Threads = 64 | Run #9
+SPMV_TIME=0.182002
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.051712
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #0
+SPMV_TIME=0.045591
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #1
+SPMV_TIME=0.045176
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #2
+SPMV_TIME=0.045614
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #3
+SPMV_TIME=0.045635
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #4
+SPMV_TIME=0.045428
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #5
+SPMV_TIME=0.045611
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #6
+SPMV_TIME=0.045447
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #7
+SPMV_TIME=0.045780
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #8
+SPMV_TIME=0.045529
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 1 | Run #9
+SPMV_TIME=0.045806
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.043938
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #0
+SPMV_TIME=0.035221
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #1
+SPMV_TIME=0.035271
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #2
+SPMV_TIME=0.035115
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #3
+SPMV_TIME=0.035228
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #4
+SPMV_TIME=0.035135
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #5
+SPMV_TIME=0.035205
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #6
+SPMV_TIME=0.035156
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #7
+SPMV_TIME=0.035150
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #8
+SPMV_TIME=0.035180
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 2 | Run #9
+SPMV_TIME=0.035137
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.041591
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #0
+SPMV_TIME=0.030947
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #1
+SPMV_TIME=0.030385
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #2
+SPMV_TIME=0.030260
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #3
+SPMV_TIME=0.030211
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #4
+SPMV_TIME=0.030156
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #5
+SPMV_TIME=0.030143
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #6
+SPMV_TIME=0.030246
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #7
+SPMV_TIME=0.030189
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #8
+SPMV_TIME=0.030150
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 4 | Run #9
+SPMV_TIME=0.030210
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.036911
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #0
+SPMV_TIME=0.028406
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #1
+SPMV_TIME=0.028009
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #2
+SPMV_TIME=0.027786
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #3
+SPMV_TIME=0.027698
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #4
+SPMV_TIME=0.027686
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #5
+SPMV_TIME=0.027576
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #6
+SPMV_TIME=0.027659
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #7
+SPMV_TIME=0.027548
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #8
+SPMV_TIME=0.027543
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 8 | Run #9
+SPMV_TIME=0.027595
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.048440
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #0
+SPMV_TIME=0.025808
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #1
+SPMV_TIME=0.022750
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #2
+SPMV_TIME=0.022011
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #3
+SPMV_TIME=0.021694
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #4
+SPMV_TIME=0.021724
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #5
+SPMV_TIME=0.021642
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #6
+SPMV_TIME=0.021561
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #7
+SPMV_TIME=0.021622
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #8
+SPMV_TIME=0.021527
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 16 | Run #9
+SPMV_TIME=0.021638
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.114605
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #0
+SPMV_TIME=0.026852
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #1
+SPMV_TIME=0.023447
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #2
+SPMV_TIME=0.022883
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #3
+SPMV_TIME=0.022717
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #4
+SPMV_TIME=0.022632
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #5
+SPMV_TIME=0.022526
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #6
+SPMV_TIME=0.022513
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #7
+SPMV_TIME=0.022484
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #8
+SPMV_TIME=0.022491
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 32 | Run #9
+SPMV_TIME=0.022489
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.217310
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #0
+SPMV_TIME=0.038729
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #1
+SPMV_TIME=0.038993
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #2
+SPMV_TIME=0.021442
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #3
+SPMV_TIME=0.019529
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #4
+SPMV_TIME=0.019066
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #5
+SPMV_TIME=0.018981
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #6
+SPMV_TIME=0.034031
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #7
+SPMV_TIME=0.032924
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #8
+SPMV_TIME=0.032324
+
+
+Schedule = 2 | Chunk size = 10 | Threads = 64 | Run #9
+SPMV_TIME=0.019363
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.049361
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #0
+SPMV_TIME=0.042402
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #1
+SPMV_TIME=0.042173
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #2
+SPMV_TIME=0.042210
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #3
+SPMV_TIME=0.042083
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #4
+SPMV_TIME=0.042361
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #5
+SPMV_TIME=0.042124
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #6
+SPMV_TIME=0.042068
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #7
+SPMV_TIME=0.042054
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #8
+SPMV_TIME=0.042093
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 1 | Run #9
+SPMV_TIME=0.042153
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.036526
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #0
+SPMV_TIME=0.022889
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #1
+SPMV_TIME=0.022865
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #2
+SPMV_TIME=0.022846
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #3
+SPMV_TIME=0.022791
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #4
+SPMV_TIME=0.022904
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #5
+SPMV_TIME=0.022844
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #6
+SPMV_TIME=0.022817
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #7
+SPMV_TIME=0.022844
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #8
+SPMV_TIME=0.022826
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 2 | Run #9
+SPMV_TIME=0.022819
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.026162
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #0
+SPMV_TIME=0.022054
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #1
+SPMV_TIME=0.022001
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #2
+SPMV_TIME=0.021888
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #3
+SPMV_TIME=0.021862
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #4
+SPMV_TIME=0.021663
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #5
+SPMV_TIME=0.021725
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #6
+SPMV_TIME=0.021838
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #7
+SPMV_TIME=0.021901
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #8
+SPMV_TIME=0.021734
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 4 | Run #9
+SPMV_TIME=0.021756
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.019625
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #0
+SPMV_TIME=0.018009
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #1
+SPMV_TIME=0.017931
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #2
+SPMV_TIME=0.017813
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #3
+SPMV_TIME=0.017688
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #4
+SPMV_TIME=0.017687
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #5
+SPMV_TIME=0.017590
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #6
+SPMV_TIME=0.017543
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #7
+SPMV_TIME=0.017539
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #8
+SPMV_TIME=0.017577
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 8 | Run #9
+SPMV_TIME=0.017561
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.023865
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #0
+SPMV_TIME=0.019800
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #1
+SPMV_TIME=0.018810
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #2
+SPMV_TIME=0.018778
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #3
+SPMV_TIME=0.018597
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #4
+SPMV_TIME=0.018656
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #5
+SPMV_TIME=0.018592
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #6
+SPMV_TIME=0.018559
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #7
+SPMV_TIME=0.018562
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #8
+SPMV_TIME=0.018420
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 16 | Run #9
+SPMV_TIME=0.018488
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.038794
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #0
+SPMV_TIME=0.037027
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #1
+SPMV_TIME=0.036978
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #2
+SPMV_TIME=0.032783
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #3
+SPMV_TIME=0.030962
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #4
+SPMV_TIME=0.032419
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #5
+SPMV_TIME=0.030551
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #6
+SPMV_TIME=0.030469
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #7
+SPMV_TIME=0.029361
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #8
+SPMV_TIME=0.029819
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 32 | Run #9
+SPMV_TIME=0.029600
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.027873
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #0
+SPMV_TIME=0.159569
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #1
+SPMV_TIME=0.187923
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #2
+SPMV_TIME=0.172473
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #3
+SPMV_TIME=0.167959
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #4
+SPMV_TIME=0.160147
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #5
+SPMV_TIME=0.147558
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #6
+SPMV_TIME=0.162157
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #7
+SPMV_TIME=0.142166
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #8
+SPMV_TIME=0.050388
+
+
+Schedule = 2 | Chunk size = 100 | Threads = 64 | Run #9
+SPMV_TIME=0.144480
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.049117
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #0
+SPMV_TIME=0.041964
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #1
+SPMV_TIME=0.041788
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #2
+SPMV_TIME=0.041754
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #3
+SPMV_TIME=0.041787
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #4
+SPMV_TIME=0.041893
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #5
+SPMV_TIME=0.041574
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #6
+SPMV_TIME=0.042046
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #7
+SPMV_TIME=0.041647
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #8
+SPMV_TIME=0.041695
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 1 | Run #9
+SPMV_TIME=0.041706
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.030981
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #0
+SPMV_TIME=0.029855
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #1
+SPMV_TIME=0.029529
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #2
+SPMV_TIME=0.029299
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #3
+SPMV_TIME=0.029276
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #4
+SPMV_TIME=0.029228
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #5
+SPMV_TIME=0.029379
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #6
+SPMV_TIME=0.029249
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #7
+SPMV_TIME=0.029196
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #8
+SPMV_TIME=0.029275
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 2 | Run #9
+SPMV_TIME=0.029005
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.033220
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #0
+SPMV_TIME=0.017079
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #1
+SPMV_TIME=0.016868
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #2
+SPMV_TIME=0.017027
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #3
+SPMV_TIME=0.017060
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #4
+SPMV_TIME=0.017269
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #5
+SPMV_TIME=0.017120
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #6
+SPMV_TIME=0.017027
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #7
+SPMV_TIME=0.017001
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #8
+SPMV_TIME=0.017199
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 4 | Run #9
+SPMV_TIME=0.017327
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.051450
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #0
+SPMV_TIME=0.018371
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #1
+SPMV_TIME=0.017758
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #2
+SPMV_TIME=0.017875
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #3
+SPMV_TIME=0.017766
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #4
+SPMV_TIME=0.017664
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #5
+SPMV_TIME=0.017669
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #6
+SPMV_TIME=0.017618
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #7
+SPMV_TIME=0.017639
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #8
+SPMV_TIME=0.017796
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 8 | Run #9
+SPMV_TIME=0.017543
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.020227
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #0
+SPMV_TIME=0.018251
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #1
+SPMV_TIME=0.017300
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #2
+SPMV_TIME=0.017526
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #3
+SPMV_TIME=0.017220
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #4
+SPMV_TIME=0.016915
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #5
+SPMV_TIME=0.016941
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #6
+SPMV_TIME=0.016706
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #7
+SPMV_TIME=0.016489
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #8
+SPMV_TIME=0.016591
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 16 | Run #9
+SPMV_TIME=0.016558
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.039077
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #0
+SPMV_TIME=0.046413
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #1
+SPMV_TIME=0.029518
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #2
+SPMV_TIME=0.031089
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #3
+SPMV_TIME=0.029658
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #4
+SPMV_TIME=0.028479
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #5
+SPMV_TIME=0.026616
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #6
+SPMV_TIME=0.027778
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #7
+SPMV_TIME=0.023533
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #8
+SPMV_TIME=0.028746
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 32 | Run #9
+SPMV_TIME=0.027176
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.051459
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #0
+SPMV_TIME=0.201290
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #1
+SPMV_TIME=0.211545
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #2
+SPMV_TIME=0.202462
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #3
+SPMV_TIME=0.201901
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #4
+SPMV_TIME=0.203789
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #5
+SPMV_TIME=0.223936
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #6
+SPMV_TIME=0.058101
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #7
+SPMV_TIME=0.128366
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #8
+SPMV_TIME=0.189580
+
+
+Schedule = 2 | Chunk size = 1000 | Threads = 64 | Run #9
+SPMV_TIME=0.140416
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.048950
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #0
+SPMV_TIME=0.042147
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #1
+SPMV_TIME=0.042274
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #2
+SPMV_TIME=0.042073
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #3
+SPMV_TIME=0.042202
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #4
+SPMV_TIME=0.042011
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #5
+SPMV_TIME=0.042250
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #6
+SPMV_TIME=0.042188
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #7
+SPMV_TIME=0.042165
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #8
+SPMV_TIME=0.042051
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 1 | Run #9
+SPMV_TIME=0.042086
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.029865
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #0
+SPMV_TIME=0.028818
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #1
+SPMV_TIME=0.028289
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #2
+SPMV_TIME=0.028237
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #3
+SPMV_TIME=0.028450
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #4
+SPMV_TIME=0.028195
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #5
+SPMV_TIME=0.028159
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #6
+SPMV_TIME=0.028101
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #7
+SPMV_TIME=0.028971
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #8
+SPMV_TIME=0.028760
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 2 | Run #9
+SPMV_TIME=0.028489
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.032915
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #0
+SPMV_TIME=0.021020
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #1
+SPMV_TIME=0.019637
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #2
+SPMV_TIME=0.019484
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #3
+SPMV_TIME=0.019203
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #4
+SPMV_TIME=0.019041
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #5
+SPMV_TIME=0.019709
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #6
+SPMV_TIME=0.019628
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #7
+SPMV_TIME=0.019486
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #8
+SPMV_TIME=0.018858
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 4 | Run #9
+SPMV_TIME=0.019578
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.018409
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #0
+SPMV_TIME=0.018603
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #1
+SPMV_TIME=0.016731
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #2
+SPMV_TIME=0.017099
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #3
+SPMV_TIME=0.018343
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #4
+SPMV_TIME=0.015963
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #5
+SPMV_TIME=0.016610
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #6
+SPMV_TIME=0.016527
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #7
+SPMV_TIME=0.017131
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #8
+SPMV_TIME=0.016788
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 8 | Run #9
+SPMV_TIME=0.016240
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.051230
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #0
+SPMV_TIME=0.026006
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #1
+SPMV_TIME=0.028724
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #2
+SPMV_TIME=0.015071
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #3
+SPMV_TIME=0.014376
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #4
+SPMV_TIME=0.013623
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #5
+SPMV_TIME=0.013612
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #6
+SPMV_TIME=0.012983
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #7
+SPMV_TIME=0.012657
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #8
+SPMV_TIME=0.013441
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 16 | Run #9
+SPMV_TIME=0.013200
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.040168
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #0
+SPMV_TIME=0.055332
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #1
+SPMV_TIME=0.046590
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #2
+SPMV_TIME=0.046849
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #3
+SPMV_TIME=0.039917
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #4
+SPMV_TIME=0.034883
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #5
+SPMV_TIME=0.037681
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #6
+SPMV_TIME=0.028759
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #7
+SPMV_TIME=0.033821
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #8
+SPMV_TIME=0.037533
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 32 | Run #9
+SPMV_TIME=0.034432
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.035952
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #0
+SPMV_TIME=0.200196
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #1
+SPMV_TIME=0.177657
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #2
+SPMV_TIME=0.194574
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #3
+SPMV_TIME=0.170817
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #4
+SPMV_TIME=0.154294
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #5
+SPMV_TIME=0.164100
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #6
+SPMV_TIME=0.174001
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #7
+SPMV_TIME=0.044361
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #8
+SPMV_TIME=0.100657
+
+
+Schedule = 2 | Chunk size = 10000 | Threads = 64 | Run #9
+SPMV_TIME=0.163089
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.049529
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #0
+SPMV_TIME=0.042340
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #1
+SPMV_TIME=0.042366
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #2
+SPMV_TIME=0.042219
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #3
+SPMV_TIME=0.042408
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #4
+SPMV_TIME=0.042476
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #5
+SPMV_TIME=0.042200
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #6
+SPMV_TIME=0.042606
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #7
+SPMV_TIME=0.042364
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #8
+SPMV_TIME=0.042356
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 1 | Run #9
+SPMV_TIME=0.042411
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.025163
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #0
+SPMV_TIME=0.021471
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #1
+SPMV_TIME=0.021468
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #2
+SPMV_TIME=0.021477
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #3
+SPMV_TIME=0.021549
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #4
+SPMV_TIME=0.021422
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #5
+SPMV_TIME=0.021460
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #6
+SPMV_TIME=0.021423
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #7
+SPMV_TIME=0.021453
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #8
+SPMV_TIME=0.021450
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 2 | Run #9
+SPMV_TIME=0.021383
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.023217
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #0
+SPMV_TIME=0.018353
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #1
+SPMV_TIME=0.019355
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #2
+SPMV_TIME=0.018173
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #3
+SPMV_TIME=0.014837
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #4
+SPMV_TIME=0.014085
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #5
+SPMV_TIME=0.018160
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #6
+SPMV_TIME=0.014472
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #7
+SPMV_TIME=0.018058
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #8
+SPMV_TIME=0.019054
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 4 | Run #9
+SPMV_TIME=0.014664
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.025879
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #0
+SPMV_TIME=0.017621
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #1
+SPMV_TIME=0.017137
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #2
+SPMV_TIME=0.017531
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #3
+SPMV_TIME=0.017172
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #4
+SPMV_TIME=0.017207
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #5
+SPMV_TIME=0.016810
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #6
+SPMV_TIME=0.015595
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #7
+SPMV_TIME=0.014886
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #8
+SPMV_TIME=0.015202
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 8 | Run #9
+SPMV_TIME=0.016836
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.024156
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #0
+SPMV_TIME=0.018001
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #1
+SPMV_TIME=0.017075
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #2
+SPMV_TIME=0.017457
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #3
+SPMV_TIME=0.016452
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #4
+SPMV_TIME=0.016219
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #5
+SPMV_TIME=0.016330
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #6
+SPMV_TIME=0.015625
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #7
+SPMV_TIME=0.015173
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #8
+SPMV_TIME=0.016578
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 16 | Run #9
+SPMV_TIME=0.015743
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.038536
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #0
+SPMV_TIME=0.030108
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #1
+SPMV_TIME=0.020717
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #2
+SPMV_TIME=0.015474
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #3
+SPMV_TIME=0.015621
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #4
+SPMV_TIME=0.013849
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #5
+SPMV_TIME=0.015673
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #6
+SPMV_TIME=0.013074
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #7
+SPMV_TIME=0.013340
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #8
+SPMV_TIME=0.014791
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 32 | Run #9
+SPMV_TIME=0.014886
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.047548
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #0
+SPMV_TIME=0.236922
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #1
+SPMV_TIME=0.222056
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #2
+SPMV_TIME=0.206939
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #3
+SPMV_TIME=0.194940
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #4
+SPMV_TIME=0.191814
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #5
+SPMV_TIME=0.187071
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #6
+SPMV_TIME=0.031987
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #7
+SPMV_TIME=0.118780
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #8
+SPMV_TIME=0.158711
+
+
+Schedule = 3 | Chunk size = 1 | Threads = 64 | Run #9
+SPMV_TIME=0.126112
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.050841
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #0
+SPMV_TIME=0.042454
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #1
+SPMV_TIME=0.042352
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #2
+SPMV_TIME=0.042416
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #3
+SPMV_TIME=0.042429
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #4
+SPMV_TIME=0.042459
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #5
+SPMV_TIME=0.042463
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #6
+SPMV_TIME=0.042229
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #7
+SPMV_TIME=0.042584
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #8
+SPMV_TIME=0.042377
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 1 | Run #9
+SPMV_TIME=0.042364
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.024325
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #0
+SPMV_TIME=0.021512
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #1
+SPMV_TIME=0.021368
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #2
+SPMV_TIME=0.021378
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #3
+SPMV_TIME=0.021369
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #4
+SPMV_TIME=0.021255
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #5
+SPMV_TIME=0.021250
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #6
+SPMV_TIME=0.021307
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #7
+SPMV_TIME=0.021218
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #8
+SPMV_TIME=0.021287
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 2 | Run #9
+SPMV_TIME=0.021265
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.026832
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #0
+SPMV_TIME=0.023365
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #1
+SPMV_TIME=0.020029
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #2
+SPMV_TIME=0.018809
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #3
+SPMV_TIME=0.019236
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #4
+SPMV_TIME=0.020565
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #5
+SPMV_TIME=0.020211
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #6
+SPMV_TIME=0.020001
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #7
+SPMV_TIME=0.018252
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #8
+SPMV_TIME=0.018895
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 4 | Run #9
+SPMV_TIME=0.018791
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.019797
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #0
+SPMV_TIME=0.014836
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #1
+SPMV_TIME=0.017040
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #2
+SPMV_TIME=0.016328
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #3
+SPMV_TIME=0.014416
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #4
+SPMV_TIME=0.013961
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #5
+SPMV_TIME=0.014706
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #6
+SPMV_TIME=0.016349
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #7
+SPMV_TIME=0.016315
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #8
+SPMV_TIME=0.014689
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 8 | Run #9
+SPMV_TIME=0.013846
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.036741
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #0
+SPMV_TIME=0.012956
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #1
+SPMV_TIME=0.015423
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #2
+SPMV_TIME=0.015344
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #3
+SPMV_TIME=0.015182
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #4
+SPMV_TIME=0.014467
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #5
+SPMV_TIME=0.014530
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #6
+SPMV_TIME=0.013225
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #7
+SPMV_TIME=0.015239
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #8
+SPMV_TIME=0.014971
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 16 | Run #9
+SPMV_TIME=0.014768
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.027994
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #0
+SPMV_TIME=0.062186
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #1
+SPMV_TIME=0.029845
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #2
+SPMV_TIME=0.030056
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #3
+SPMV_TIME=0.037523
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #4
+SPMV_TIME=0.030396
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #5
+SPMV_TIME=0.030226
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #6
+SPMV_TIME=0.027732
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #7
+SPMV_TIME=0.020069
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #8
+SPMV_TIME=0.016824
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 32 | Run #9
+SPMV_TIME=0.023346
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.053346
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #0
+SPMV_TIME=0.214168
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #1
+SPMV_TIME=0.211716
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #2
+SPMV_TIME=0.190849
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #3
+SPMV_TIME=0.185536
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #4
+SPMV_TIME=0.194977
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #5
+SPMV_TIME=0.161587
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #6
+SPMV_TIME=0.171000
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #7
+SPMV_TIME=0.024398
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #8
+SPMV_TIME=0.122390
+
+
+Schedule = 3 | Chunk size = 10 | Threads = 64 | Run #9
+SPMV_TIME=0.125091
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.048175
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #0
+SPMV_TIME=0.041451
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #1
+SPMV_TIME=0.041521
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #2
+SPMV_TIME=0.042065
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #3
+SPMV_TIME=0.041992
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #4
+SPMV_TIME=0.041905
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #5
+SPMV_TIME=0.041720
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #6
+SPMV_TIME=0.041689
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #7
+SPMV_TIME=0.041331
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #8
+SPMV_TIME=0.041699
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 1 | Run #9
+SPMV_TIME=0.041707
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.026906
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #0
+SPMV_TIME=0.029881
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #1
+SPMV_TIME=0.031254
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #2
+SPMV_TIME=0.031182
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #3
+SPMV_TIME=0.031012
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #4
+SPMV_TIME=0.031027
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #5
+SPMV_TIME=0.031020
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #6
+SPMV_TIME=0.031043
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #7
+SPMV_TIME=0.031091
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #8
+SPMV_TIME=0.031142
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 2 | Run #9
+SPMV_TIME=0.031076
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.019103
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #0
+SPMV_TIME=0.023589
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #1
+SPMV_TIME=0.019586
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #2
+SPMV_TIME=0.018081
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #3
+SPMV_TIME=0.014463
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #4
+SPMV_TIME=0.018991
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #5
+SPMV_TIME=0.018359
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #6
+SPMV_TIME=0.014482
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #7
+SPMV_TIME=0.018789
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #8
+SPMV_TIME=0.014478
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 4 | Run #9
+SPMV_TIME=0.014686
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.027237
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #0
+SPMV_TIME=0.013032
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #1
+SPMV_TIME=0.019891
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #2
+SPMV_TIME=0.014577
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #3
+SPMV_TIME=0.016711
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #4
+SPMV_TIME=0.015175
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #5
+SPMV_TIME=0.014173
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #6
+SPMV_TIME=0.014895
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #7
+SPMV_TIME=0.015109
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #8
+SPMV_TIME=0.014402
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 8 | Run #9
+SPMV_TIME=0.014450
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.032445
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #0
+SPMV_TIME=0.020242
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #1
+SPMV_TIME=0.018334
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #2
+SPMV_TIME=0.016743
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #3
+SPMV_TIME=0.016682
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #4
+SPMV_TIME=0.017576
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #5
+SPMV_TIME=0.016939
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #6
+SPMV_TIME=0.016348
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #7
+SPMV_TIME=0.016490
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #8
+SPMV_TIME=0.014312
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 16 | Run #9
+SPMV_TIME=0.017056
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.035517
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #0
+SPMV_TIME=0.037645
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #1
+SPMV_TIME=0.020099
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #2
+SPMV_TIME=0.029631
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #3
+SPMV_TIME=0.024323
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #4
+SPMV_TIME=0.030943
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #5
+SPMV_TIME=0.024470
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #6
+SPMV_TIME=0.022794
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #7
+SPMV_TIME=0.020096
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #8
+SPMV_TIME=0.017547
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 32 | Run #9
+SPMV_TIME=0.018675
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.059074
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #0
+SPMV_TIME=0.255450
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #1
+SPMV_TIME=0.217805
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #2
+SPMV_TIME=0.193042
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #3
+SPMV_TIME=0.181739
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #4
+SPMV_TIME=0.207206
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #5
+SPMV_TIME=0.022635
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #6
+SPMV_TIME=0.116727
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #7
+SPMV_TIME=0.095397
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #8
+SPMV_TIME=0.095863
+
+
+Schedule = 3 | Chunk size = 100 | Threads = 64 | Run #9
+SPMV_TIME=0.038990
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.052677
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #0
+SPMV_TIME=0.043007
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #1
+SPMV_TIME=0.043447
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #2
+SPMV_TIME=0.043091
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #3
+SPMV_TIME=0.043286
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #4
+SPMV_TIME=0.042664
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #5
+SPMV_TIME=0.043397
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #6
+SPMV_TIME=0.043333
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #7
+SPMV_TIME=0.043019
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #8
+SPMV_TIME=0.043156
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 1 | Run #9
+SPMV_TIME=0.043234
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.025971
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #0
+SPMV_TIME=0.026196
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #1
+SPMV_TIME=0.025689
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #2
+SPMV_TIME=0.028539
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #3
+SPMV_TIME=0.031036
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #4
+SPMV_TIME=0.031002
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #5
+SPMV_TIME=0.031011
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #6
+SPMV_TIME=0.031027
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #7
+SPMV_TIME=0.031045
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #8
+SPMV_TIME=0.031042
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 2 | Run #9
+SPMV_TIME=0.031050
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.022149
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #0
+SPMV_TIME=0.020609
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #1
+SPMV_TIME=0.019882
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #2
+SPMV_TIME=0.019599
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #3
+SPMV_TIME=0.019613
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #4
+SPMV_TIME=0.019366
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #5
+SPMV_TIME=0.019153
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #6
+SPMV_TIME=0.019273
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #7
+SPMV_TIME=0.019090
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #8
+SPMV_TIME=0.019206
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 4 | Run #9
+SPMV_TIME=0.021875
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.028580
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #0
+SPMV_TIME=0.012587
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #1
+SPMV_TIME=0.016303
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #2
+SPMV_TIME=0.017032
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #3
+SPMV_TIME=0.017344
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #4
+SPMV_TIME=0.015295
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #5
+SPMV_TIME=0.015716
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #6
+SPMV_TIME=0.016399
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #7
+SPMV_TIME=0.015823
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #8
+SPMV_TIME=0.014255
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 8 | Run #9
+SPMV_TIME=0.013369
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.024163
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #0
+SPMV_TIME=0.014255
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #1
+SPMV_TIME=0.014377
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #2
+SPMV_TIME=0.015478
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #3
+SPMV_TIME=0.014290
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #4
+SPMV_TIME=0.014363
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #5
+SPMV_TIME=0.014675
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #6
+SPMV_TIME=0.014584
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #7
+SPMV_TIME=0.013129
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #8
+SPMV_TIME=0.014606
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 16 | Run #9
+SPMV_TIME=0.015077
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.035010
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #0
+SPMV_TIME=0.066743
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #1
+SPMV_TIME=0.047595
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #2
+SPMV_TIME=0.070520
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #3
+SPMV_TIME=0.033864
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #4
+SPMV_TIME=0.038276
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #5
+SPMV_TIME=0.037650
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #6
+SPMV_TIME=0.031395
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #7
+SPMV_TIME=0.032797
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #8
+SPMV_TIME=0.023343
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 32 | Run #9
+SPMV_TIME=0.042424
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.051841
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #0
+SPMV_TIME=0.220836
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #1
+SPMV_TIME=0.224443
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #2
+SPMV_TIME=0.197568
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #3
+SPMV_TIME=0.218213
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #4
+SPMV_TIME=0.175753
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #5
+SPMV_TIME=0.187522
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #6
+SPMV_TIME=0.024815
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #7
+SPMV_TIME=0.136002
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #8
+SPMV_TIME=0.158968
+
+
+Schedule = 3 | Chunk size = 1000 | Threads = 64 | Run #9
+SPMV_TIME=0.122010
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | WARM UP RUN
+WARMUP_TIME=0.046863
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #0
+SPMV_TIME=0.041462
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #1
+SPMV_TIME=0.041146
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #2
+SPMV_TIME=0.041555
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #3
+SPMV_TIME=0.041358
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #4
+SPMV_TIME=0.041174
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #5
+SPMV_TIME=0.041208
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #6
+SPMV_TIME=0.041575
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #7
+SPMV_TIME=0.041508
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #8
+SPMV_TIME=0.041305
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 1 | Run #9
+SPMV_TIME=0.041357
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | WARM UP RUN
+WARMUP_TIME=0.027741
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #0
+SPMV_TIME=0.021525
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #1
+SPMV_TIME=0.021415
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #2
+SPMV_TIME=0.021405
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #3
+SPMV_TIME=0.021438
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #4
+SPMV_TIME=0.021348
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #5
+SPMV_TIME=0.021582
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #6
+SPMV_TIME=0.021392
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #7
+SPMV_TIME=0.021369
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #8
+SPMV_TIME=0.021435
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 2 | Run #9
+SPMV_TIME=0.021289
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | WARM UP RUN
+WARMUP_TIME=0.024548
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #0
+SPMV_TIME=0.019524
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #1
+SPMV_TIME=0.018303
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #2
+SPMV_TIME=0.018828
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #3
+SPMV_TIME=0.015023
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #4
+SPMV_TIME=0.018074
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #5
+SPMV_TIME=0.018809
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #6
+SPMV_TIME=0.017825
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #7
+SPMV_TIME=0.018442
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #8
+SPMV_TIME=0.019188
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 4 | Run #9
+SPMV_TIME=0.014822
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | WARM UP RUN
+WARMUP_TIME=0.017288
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #0
+SPMV_TIME=0.016223
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #1
+SPMV_TIME=0.018419
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #2
+SPMV_TIME=0.018214
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #3
+SPMV_TIME=0.015681
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #4
+SPMV_TIME=0.017657
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #5
+SPMV_TIME=0.015319
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #6
+SPMV_TIME=0.017723
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #7
+SPMV_TIME=0.015699
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #8
+SPMV_TIME=0.015094
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 8 | Run #9
+SPMV_TIME=0.017541
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | WARM UP RUN
+WARMUP_TIME=0.022461
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #0
+SPMV_TIME=0.015284
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #1
+SPMV_TIME=0.015874
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #2
+SPMV_TIME=0.015826
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #3
+SPMV_TIME=0.014753
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #4
+SPMV_TIME=0.016097
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #5
+SPMV_TIME=0.014684
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #6
+SPMV_TIME=0.013852
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #7
+SPMV_TIME=0.015837
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #8
+SPMV_TIME=0.015311
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 16 | Run #9
+SPMV_TIME=0.014663
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | WARM UP RUN
+WARMUP_TIME=0.024845
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #0
+SPMV_TIME=0.082820
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #1
+SPMV_TIME=0.078670
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #2
+SPMV_TIME=0.078606
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #3
+SPMV_TIME=0.079627
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #4
+SPMV_TIME=0.114169
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #5
+SPMV_TIME=0.073157
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #6
+SPMV_TIME=0.095811
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #7
+SPMV_TIME=0.083716
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #8
+SPMV_TIME=0.070770
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 32 | Run #9
+SPMV_TIME=0.089196
+
+
+=== MATRIX: Serena.mtx ===
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | WARM UP RUN
+WARMUP_TIME=0.051755
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #0
+SPMV_TIME=0.178964
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #1
+SPMV_TIME=0.189855
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #2
+SPMV_TIME=0.196389
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #3
+SPMV_TIME=0.171384
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #4
+SPMV_TIME=0.144640
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #5
+SPMV_TIME=0.156706
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #6
+SPMV_TIME=0.162852
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #7
+SPMV_TIME=0.123225
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #8
+SPMV_TIME=0.047740
+
+
+Schedule = 3 | Chunk size = 10000 | Threads = 64 | Run #9
+SPMV_TIME=0.054728
+

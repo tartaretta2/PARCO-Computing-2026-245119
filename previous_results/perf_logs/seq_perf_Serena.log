@@ -1,0 +1,48 @@
+# started on Sat Nov 22 17:29:10 2025
+
+
+ Performance counter stats for '/home/leonardo.tartini/PARCO-Computing-2026-245119/results3/bin/perf_seq_program /home/leonardo.tartini/PARCO-Computing-2026-245119/data_matrices3/Serena.mtx 1':
+
+    20,425,042,248      L1-dcache-loads:u                                           
+        55,916,793      L1-dcache-load-misses:u   #    0.27% of all L1-dcache hits  
+           707,612      LLC-loads:u                                                 
+           377,012      LLC-load-misses:u         #   53.28% of all LL-cache hits   
+
+      12.446112810 seconds time elapsed
+
+      11.655670000 seconds user
+       0.758157000 seconds sys
+
+
+# started on Sat Nov 22 17:29:23 2025
+
+
+ Performance counter stats for '/home/leonardo.tartini/PARCO-Computing-2026-245119/results3/bin/perf_seq_program /home/leonardo.tartini/PARCO-Computing-2026-245119/data_matrices3/Serena.mtx 1':
+
+    20,425,042,073      L1-dcache-loads:u                                           
+        54,697,219      L1-dcache-load-misses:u   #    0.27% of all L1-dcache hits  
+           521,653      LLC-loads:u                                                 
+           183,765      LLC-load-misses:u         #   35.23% of all LL-cache hits   
+
+      12.111186411 seconds time elapsed
+
+      11.598980000 seconds user
+       0.482875000 seconds sys
+
+
+# started on Sat Nov 22 17:29:36 2025
+
+
+ Performance counter stats for '/home/leonardo.tartini/PARCO-Computing-2026-245119/results3/bin/perf_seq_program /home/leonardo.tartini/PARCO-Computing-2026-245119/data_matrices3/Serena.mtx 1':
+
+    20,425,042,190      L1-dcache-loads:u                                           
+        54,650,850      L1-dcache-load-misses:u   #    0.27% of all L1-dcache hits  
+           594,275      LLC-loads:u                                                 
+           250,804      LLC-load-misses:u         #   42.20% of all LL-cache hits   
+
+      12.291050240 seconds time elapsed
+
+      11.637039000 seconds user
+       0.623608000 seconds sys
+
+

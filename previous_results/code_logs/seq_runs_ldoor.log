@@ -1,0 +1,46 @@
+
+=== MATRIX: ldoor.mtx ===
+
+Sequential WARM UP RUN
+WARMUP_TIME=0.035485
+
+
+Sequential run #0
+SPMV_TIME=0.030575
+
+
+Sequential run #1
+SPMV_TIME=0.030553
+
+
+Sequential run #2
+SPMV_TIME=0.030557
+
+
+Sequential run #3
+SPMV_TIME=0.030598
+
+
+Sequential run #4
+SPMV_TIME=0.030482
+
+
+Sequential run #5
+SPMV_TIME=0.030480
+
+
+Sequential run #6
+SPMV_TIME=0.030460
+
+
+Sequential run #7
+SPMV_TIME=0.030453
+
+
+Sequential run #8
+SPMV_TIME=0.030391
+
+
+Sequential run #9
+SPMV_TIME=0.030488
+
