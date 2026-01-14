@@ -1,0 +1,192 @@
+Weak Scaling - Synthetic Matrices
+Date: Mon Jan 12 11:54:47 CET 2026
+
+--- P=1, Size=1000x1000 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     1
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/synthetic/random_1000x1000.mtx: 1000 x 1000  nnz=10000
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 10000
+Avg NNZ per rank: 10000.00
+Max NNZ per rank: 10000
+Imbalance: 0.00%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 0.000000e+00 s
+Avg computation:   7.765368e-06 s
+Avg total:         7.765368e-06 s
+======================
+
+
+--- P=2, Size=2000x2000 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     2
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/synthetic/random_2000x2000.mtx: 2000 x 2000  nnz=20000
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 10000
+Avg NNZ per rank: 10000.00
+Max NNZ per rank: 10000
+Imbalance: 0.00%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 1.638196e-05 s
+Avg computation:   8.440763e-06 s
+Avg total:         2.482273e-05 s
+======================
+
+
+--- P=4, Size=4000x4000 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     4
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/synthetic/random_4000x4000.mtx: 4000 x 4000  nnz=40000
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 10000
+Avg NNZ per rank: 10000.00
+Max NNZ per rank: 10000
+Imbalance: 0.00%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 7.649362e-05 s
+Avg computation:   1.699850e-05 s
+Avg total:         9.349212e-05 s
+======================
+
+
+--- P=8, Size=8000x8000 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     8
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/synthetic/random_8000x8000.mtx: 8000 x 8000  nnz=80000
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 10000
+Avg NNZ per rank: 10000.00
+Max NNZ per rank: 10000
+Imbalance: 0.00%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 1.715584e-04 s
+Avg computation:   2.699066e-05 s
+Avg total:         1.985490e-04 s
+======================
+
+
+--- P=16, Size=16000x16000 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     16
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/synthetic/random_16000x16000.mtx: 16000 x 16000  nnz=160000
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 10000
+Avg NNZ per rank: 10000.00
+Max NNZ per rank: 10000
+Imbalance: 0.00%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 3.580477e-04 s
+Avg computation:   4.580151e-05 s
+Avg total:         4.038492e-04 s
+======================
+
+
+--- P=32, Size=32000x32000 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     32
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/synthetic/random_32000x32000.mtx: 32000 x 32000  nnz=320000
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 10000
+Avg NNZ per rank: 10000.00
+Max NNZ per rank: 10000
+Imbalance: 0.00%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 2.045714e-03 s
+Avg computation:   1.375161e-04 s
+Avg total:         2.183230e-03 s
+======================
+
+
+--- P=64, Size=64000x64000 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     64
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/synthetic/random_64000x64000.mtx: 64000 x 64000  nnz=640000
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 10000
+Avg NNZ per rank: 10000.00
+Max NNZ per rank: 10000
+Imbalance: 0.00%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 2.675149e-03 s
+Avg computation:   1.878329e-04 s
+Avg total:         2.862982e-03 s
+======================
+
+

@@ -1,0 +1,192 @@
+Strong Scaling - Pure MPI - Matrix: af_shell8
+Date: Mon Jan 12 11:46:51 CET 2026
+
+--- P=1 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     1
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/af_shell8.mtx: 504855 x 504855  nnz=9046865
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 9046865
+Avg NNZ per rank: 9046865.00
+Max NNZ per rank: 9046865
+Imbalance: 0.00%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 0.000000e+00 s
+Avg computation:   1.049821e-02 s
+Avg total:         1.049821e-02 s
+======================
+
+
+--- P=2 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     2
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/af_shell8.mtx: 504855 x 504855  nnz=9046865
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 4508396
+Avg NNZ per rank: 4523432.50
+Max NNZ per rank: 4538469
+Imbalance: 0.66%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 2.390793e-03 s
+Avg computation:   5.417532e-03 s
+Avg total:         7.808325e-03 s
+======================
+
+
+--- P=4 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     4
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/af_shell8.mtx: 504855 x 504855  nnz=9046865
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 2254112
+Avg NNZ per rank: 2261716.25
+Max NNZ per rank: 2269421
+Imbalance: 0.68%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 4.870363e-03 s
+Avg computation:   2.922843e-03 s
+Avg total:         7.793206e-03 s
+======================
+
+
+--- P=8 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     8
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/af_shell8.mtx: 504855 x 504855  nnz=9046865
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 1126767
+Avg NNZ per rank: 1130858.12
+Max NNZ per rank: 1134957
+Imbalance: 0.72%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 5.965956e-03 s
+Avg computation:   1.826953e-03 s
+Avg total:         7.792909e-03 s
+======================
+
+
+--- P=16 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     16
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/af_shell8.mtx: 504855 x 504855  nnz=9046865
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 563359
+Avg NNZ per rank: 565429.06
+Max NNZ per rank: 567659
+Imbalance: 0.76%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 6.805509e-03 s
+Avg computation:   1.342308e-03 s
+Avg total:         8.147817e-03 s
+======================
+
+
+--- P=32 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     32
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/af_shell8.mtx: 504855 x 504855  nnz=9046865
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 281341
+Avg NNZ per rank: 282714.53
+Max NNZ per rank: 283990
+Imbalance: 0.94%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 2.839328e-02 s
+Avg computation:   1.297613e-03 s
+Avg total:         2.969089e-02 s
+======================
+
+
+--- P=64 ---
+====================================
+SpMV Configuration
+====================================
+MPI processes:     64
+OpenMP threads:    1
+OpenMP:            DISABLED
+====================================
+
+Matrix ../data_matrices/af_shell8.mtx: 504855 x 504855  nnz=9046865
+✓ Load balance stats written to CSV
+
+=== LOAD BALANCE ===
+Min NNZ per rank: 140577
+Avg NNZ per rank: 141357.27
+Max NNZ per rank: 142158
+Imbalance: 1.12%
+
+✓ Written 10 timing records to ../results/mpi_times.csv
+
+=== TIMING RESULTS ===
+Avg communication: 1.510160e-02 s
+Avg computation:   1.217765e-03 s
+Avg total:         1.631937e-02 s
+======================
+
+

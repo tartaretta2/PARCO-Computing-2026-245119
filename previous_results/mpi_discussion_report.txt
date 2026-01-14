@@ -1,0 +1,57 @@
+========================================================================================================================
+MPI SpMV Performance Analysis - Discussion
+========================================================================================================================
+
+1. WHEN 1D PARTITIONING WORKS WELL
+------------------------------------------------------------------------------------------------------------------------
+1D cyclic partitioning is effective when:
+  • Matrix has uniform row distribution
+  • Communication-to-computation ratio is favorable
+  • Number of processes is moderate (< 64)
+
+  af_shell8: 1.2% efficiency at P=64
+  audikw_1: 1.6% efficiency at P=64
+  fidapm37: 1.0% efficiency at P=64
+
+2. WHEN 2D PARTITIONING IS ADVANTAGEOUS
+------------------------------------------------------------------------------------------------------------------------
+2D partitioning becomes beneficial when:
+  • High communication overhead (>30%)
+  • Large number of processes (>64)
+  • Significant load imbalance
+
+  Matrices with high communication overhead:
+    af_shell8: 91.3% at P=64
+    audikw_1: 93.2% at P=64
+    fidapm37: 98.4% at P=64
+
+3. INTERCONNECT BOUND ANALYSIS
+------------------------------------------------------------------------------------------------------------------------
+  af_shell8:
+    P=  1: Comm=  0.0%, Eff=100.0% [OK]
+    P=  2: Comm= 31.1%, Eff= 67.3% [OK]
+    P=  4: Comm= 59.3%, Eff= 29.3% [BOUND]
+    P=  8: Comm= 73.8%, Eff= 15.6% [BOUND]
+    P= 16: Comm= 79.9%, Eff=  7.2% [BOUND]
+    P= 32: Comm= 94.0%, Eff=  1.5% [BOUND]
+    P= 64: Comm= 91.3%, Eff=  1.2% [BOUND]
+
+  audikw_1:
+    P=  1: Comm=  0.0%, Eff=100.0% [OK]
+    P=  2: Comm= 19.0%, Eff= 84.5% [OK]
+    P=  4: Comm= 43.3%, Eff= 48.5% [BOUND]
+    P=  8: Comm= 56.5%, Eff= 35.0% [BOUND]
+    P= 16: Comm= 68.3%, Eff= 17.1% [BOUND]
+    P= 32: Comm= 84.8%, Eff=  5.8% [BOUND]
+    P= 64: Comm= 93.2%, Eff=  1.6% [BOUND]
+
+  fidapm37:
+    P=  1: Comm=  0.0%, Eff=100.0% [OK]
+    P=  2: Comm= 12.6%, Eff= 83.5% [OK]
+    P=  4: Comm= 38.2%, Eff= 56.5% [OK]
+    P=  8: Comm= 62.2%, Eff= 33.8% [BOUND]
+    P= 16: Comm= 80.7%, Eff= 13.9% [BOUND]
+    P= 32: Comm= 97.0%, Eff=  2.1% [BOUND]
+    P= 64: Comm= 98.4%, Eff=  1.0% [BOUND]
+
+========================================================================================================================
